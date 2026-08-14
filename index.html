@@ -174,6 +174,12 @@
   .card .ico { font-size: 1.5rem; margin-bottom: .7rem; display: block; }
   .card h3 { font-size: 1.05rem; margin-bottom: .4rem; }
   .card p { font-size: .95rem; color: var(--ink-dim); }
+  .pill {
+    display: inline-block; vertical-align: middle; margin-left: .35rem;
+    font-size: .62rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--accent-ink); background: linear-gradient(100deg, var(--sun), var(--horizon));
+    padding: .15rem .5rem; border-radius: 999px;
+  }
 
   .privacy {
     background: linear-gradient(to bottom, rgba(255, 179, 71, .07), transparent);
@@ -288,7 +294,7 @@
       </div>
       <div class="card">
         <span class="ico" aria-hidden="true">🛏️</span>
-        <h3>Bedtime reminder</h3>
+        <h3>Bedtime reminder <span class="pill">Premium</span></h3>
         <p>Tell it how much sleep you want and how long you need to wind down. It counts backwards from tomorrow's sunrise and nudges you to bed on time.</p>
       </div>
       <div class="card">
@@ -350,13 +356,26 @@
 </footer>
 
 <script>
-  // Assembled at runtime to keep the address out of scraper-friendly source.
+  // Paste the Play closed-testing "join on the web" URL here once it exists;
+  // every beta button then links straight to it (what forum testers expect).
+  // Empty string = the pre-launch email flow below.
+  var BETA_OPT_IN_URL = '';
+
+  // Email assembled at runtime to keep the address out of scraper-friendly
+  // source.
   (function () {
     var addr = ['wakeatsunriseapp', 'gmail.com'].join('@');
     var subject = encodeURIComponent('Wake at Sunrise beta');
     document.querySelectorAll('.js-mail, #cta-beta').forEach(function (a) {
-      if (a.id === 'cta-beta') return; // hero button scrolls to #beta section
-      a.href = 'mailto:' + addr + '?subject=' + subject;
+      if (a.classList.contains('js-mail') && a.textContent === 'Contact') {
+        a.href = 'mailto:' + addr + '?subject=' + subject;
+        return;
+      }
+      if (BETA_OPT_IN_URL) {
+        a.href = BETA_OPT_IN_URL;
+      } else if (a.id !== 'cta-beta') { // hero button scrolls to #beta
+        a.href = 'mailto:' + addr + '?subject=' + subject;
+      }
     });
   })();
 </script>
