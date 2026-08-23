@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request data deletion — Wake at Sunrise</title>
+<meta name="description" content="How to request deletion of data associated with the Wake at Sunrise Android app.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+    background: #171136; color: #f7f1e8; line-height: 1.7;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.5rem 5rem; }
+  a { color: #ffb347; }
+  h1 { font-size: 2rem; margin-bottom: .4rem; letter-spacing: -0.01em; }
+  .updated { color: rgba(247,241,232,.6); font-size: .9rem; margin-bottom: 2.5rem; }
+  h2 { font-size: 1.25rem; margin: 2.2rem 0 .7rem; color: #ffcf6b; }
+  p, li { color: rgba(247,241,232,.85); }
+  ul, ol { padding-left: 1.4rem; margin: .6rem 0; }
+  li { margin-bottom: .45rem; }
+  .back { display: inline-block; margin-bottom: 2.5rem; font-size: .9rem; }
+  table { border-collapse: collapse; width: 100%; margin: .8rem 0; font-size: .92rem; }
+  th, td { text-align: left; padding: .5rem .7rem; border: 1px solid rgba(247,241,232,.18); vertical-align: top; }
+  th { color: #ffcf6b; font-weight: 600; }
+  .mail { font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="index.html">← Wake at Sunrise</a>
+  <h1>Request data deletion</h1>
+  <p class="updated">Last updated: August 23, 2026</p>
+
+  <p><strong>Wake at Sunrise</strong> is an Android alarm app published by Rafael Nicolay. It has no accounts and no sign-up. This page explains how to delete the data associated with it, and what happens to each kind of data.</p>
+
+  <h2>Delete everything stored on your phone</h2>
+  <p>Settings, the cached coordinates used for the sunrise calculation, and the local technical log are stored only on your device. <strong>Uninstalling the app deletes all of them immediately</strong> — no request needed, and nothing of that kind exists anywhere else.</p>
+
+  <h2>Request deletion of data held by our processors</h2>
+  <p>Two kinds of technical data may exist outside your device: crash reports and purchase records (see the table below). To have them deleted:</p>
+  <ol>
+    <li>Send an email to <span class="mail">wakeatsunriseapp [at] gmail [dot] com</span> with the subject <strong>"Data deletion request — Wake at Sunrise"</strong>.</li>
+    <li>Say what you want deleted: crash reports, purchase records, or both.</li>
+    <li>For purchase records, include the <strong>Google Play order ID</strong> of the purchase (Play Store app → profile icon → Payments &amp; subscriptions → Budget &amp; order history), or the email address of the Google account used to buy. Without it, the purchase cannot be identified, because the app never learns who you are.</li>
+    <li>For crash reports, include the approximate date and your device model, or simply ask for all reports from your device to be removed.</li>
+  </ol>
+  <p>Requests are acknowledged within 7 days and completed within 30 days.</p>
+
+  <h2>What is deleted and what is kept</h2>
+  <table>
+    <tr><th>Data</th><th>On deletion request</th></tr>
+    <tr>
+      <td>On-device settings, cached coordinates, local log</td>
+      <td>Not applicable — removed by uninstalling the app. Never transmitted anywhere.</td>
+    </tr>
+    <tr>
+      <td>Crash reports and diagnostics (processed by Sentry)</td>
+      <td>Deleted on request. Also expire automatically about 90 days after they are received.</td>
+    </tr>
+    <tr>
+      <td>Purchase records (processed by RevenueCat)</td>
+      <td>Deleted on request. Note that deleting them means Premium can no longer be restored automatically on a new device.</td>
+    </tr>
+    <tr>
+      <td>Transaction records held by Google Play</td>
+      <td>Retained by Google as the seller of record, for the period required by tax and accounting law. These are outside the developer's control; requests concerning them go to <a href="https://support.google.com/googleplay">Google Play support</a>.</td>
+    </tr>
+  </table>
+
+  <p>For the full picture of what the app does and does not collect, see the <a href="privacy.html">privacy policy</a>.</p>
+</main>
+</body>
+</html>
