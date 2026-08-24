@@ -117,29 +117,14 @@
     margin-bottom: -3.2rem; /* sinks into the section below */
     position: relative; z-index: 2;
   }
+  /* A real screenshot of the app, not a drawing of one: the CSS mockup it
+     replaced had already drifted out of sync with the product once. */
   .screen {
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 1.9rem;
-    background: linear-gradient(to bottom, #241a4a 0%, #472a5e 55%, #a04a50 85%, #e08a44 100%);
-    padding: 2.6rem 1.3rem 2.2rem;
-    text-align: center;
-    overflow: hidden;
   }
-  .scr-label {
-    font-size: .68rem; letter-spacing: .22em; color: rgba(247,241,232,.65);
-    margin-bottom: .4rem;
-  }
-  .scr-time {
-    font-size: 3.1rem; font-weight: 300; letter-spacing: .02em;
-    margin-bottom: .9rem;
-  }
-  .scr-chip {
-    display: inline-block; font-size: .72rem;
-    padding: .35rem .85rem; border-radius: 999px;
-    background: rgba(247,241,232,.12); border: 1px solid rgba(247,241,232,.2);
-    margin-bottom: 1.6rem;
-  }
-  .scr-horizon { position: relative; height: 74px; }
-  .scr-horizon svg { display: block; width: 100%; height: 100%; }
 
   /* ---------- Sections ---------- */
   section { padding: 4.5rem 1.5rem; }
@@ -260,31 +245,13 @@
         <span class="cta-note">Free Android app · No ads · No account<br>Coming soon to Google Play</span>
       </div>
     </div>
-    <div class="phone-wrap" aria-hidden="true">
+    <div class="phone-wrap">
       <div class="phone">
-        <div class="screen">
-          <!-- Mirrors the app's home screen: the big number is the wake-up
-               time, the chip is the offset with the sunrise it derives
-               from. Saying "next sunrise" up top made the headline number
-               the one moment the alarm does not ring. -->
-          <div class="scr-label">WAKE UP AT</div>
-          <div class="scr-time">06:22</div>
-          <div class="scr-chip">20 min before sunrise (06:42)</div>
-          <div class="scr-horizon">
-            <svg viewBox="0 0 240 74">
-              <defs>
-                <radialGradient id="sg" cx="50%" cy="50%" r="50%">
-                  <stop offset="0%" stop-color="#ffe9b0"/>
-                  <stop offset="100%" stop-color="#ffcf6b"/>
-                </radialGradient>
-              </defs>
-              <path d="M20 64 Q120 -30 220 64" fill="none" stroke="rgba(247,241,232,.35)" stroke-width="2" stroke-dasharray="3 5"/>
-              <circle cx="120" cy="20" r="15" fill="url(#sg)"/>
-              <circle cx="120" cy="20" r="22" fill="none" stroke="rgba(255,207,107,.35)" stroke-width="2"/>
-              <line x1="6" y1="64" x2="234" y2="64" stroke="rgba(247,241,232,.5)" stroke-width="2"/>
-            </svg>
-          </div>
-        </div>
+        <img class="screen" src="app-home.webp" width="560" height="1131"
+             alt="Wake at Sunrise on Android: WAKE UP AT 7:33 AM, with a chip
+                  reading 45 min after sunrise (6:48 AM), over an illustrated
+                  dawn landscape with a slider for choosing the offset."
+             loading="eager" decoding="async">
       </div>
     </div>
   </div>
