@@ -263,9 +263,13 @@
     <div class="phone-wrap" aria-hidden="true">
       <div class="phone">
         <div class="screen">
-          <div class="scr-label">NEXT SUNRISE</div>
-          <div class="scr-time">06:42</div>
-          <div class="scr-chip">20 min before sunrise (06:22)</div>
+          <!-- Mirrors the app's home screen: the big number is the wake-up
+               time, the chip is the offset with the sunrise it derives
+               from. Saying "next sunrise" up top made the headline number
+               the one moment the alarm does not ring. -->
+          <div class="scr-label">WAKE UP AT</div>
+          <div class="scr-time">06:22</div>
+          <div class="scr-chip">20 min before sunrise (06:42)</div>
           <div class="scr-horizon">
             <svg viewBox="0 0 240 74">
               <defs>
