@@ -41,7 +41,10 @@
     background: linear-gradient(to bottom,
       var(--sky-top) 0%, var(--sky-mid) 38%, var(--dusk) 62%,
       var(--ember) 80%, var(--horizon) 100%);
-    padding: 4.5rem 1.5rem 0;
+    /* Real bottom padding: the phone is the tallest thing in the hero, and
+       overflow is hidden here to keep the star field from widening the
+       page — so anything reaching past this box gets clipped. */
+    padding: 4.5rem 1.5rem 3.5rem;
     overflow: hidden;
   }
   .stars {
@@ -66,7 +69,7 @@
     gap: 3rem;
     align-items: center;
   }
-  .hero-copy { padding-bottom: 5rem; }
+  .hero-copy { padding-bottom: 0; }
   .wordmark {
     display: inline-flex; align-items: center; gap: .55rem;
     font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
@@ -114,7 +117,6 @@
     background: #0d0a1f;
     border: 1px solid rgba(247,241,232,.18);
     box-shadow: 0 30px 60px rgba(0,0,0,.45);
-    margin-bottom: -3.2rem; /* sinks into the section below */
     position: relative; z-index: 2;
   }
   /* A real screenshot of the app, not a drawing of one: the CSS mockup it
@@ -220,7 +222,6 @@
     .hero { padding-top: 3rem; }
     .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; }
     .hero-copy { padding-bottom: 0; }
-    .phone { margin-bottom: -2.4rem; }
     .steps, .grid { grid-template-columns: 1fr; }
     .privacy ul { grid-template-columns: 1fr; }
     section { padding: 3.2rem 1.25rem; }
