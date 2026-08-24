@@ -193,6 +193,32 @@
 
   .final-cta { text-align: center; }
   .final-cta .btn { margin-top: 1.4rem; }
+  .btn-sm { font-size: .95rem; padding: .6rem 1.4rem; }
+
+  .beta-steps {
+    list-style: none; counter-reset: beta;
+    max-width: 34rem; margin: 2rem auto 0; text-align: left;
+    display: grid; gap: 1rem;
+  }
+  .beta-steps li {
+    display: flex; gap: 1rem; align-items: flex-start;
+    background: var(--card); border: 1px solid var(--card-edge);
+    border-radius: 1.1rem; padding: 1.3rem 1.4rem;
+  }
+  .beta-step-n {
+    flex: none;
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 2rem; border-radius: 50%;
+    background: linear-gradient(135deg, var(--sun), var(--horizon));
+    color: var(--accent-ink); font-weight: 800;
+  }
+  .beta-steps strong { display: block; margin-bottom: .2rem; }
+  .beta-steps p { font-size: .92rem; color: var(--ink-dim); margin-bottom: .2rem; }
+  .beta-steps .btn { margin-top: .8rem; }
+  .beta-note {
+    max-width: 34rem; margin: 1.6rem auto 0;
+    font-size: .88rem; color: var(--ink-dim);
+  }
 
   footer {
     padding: 2.5rem 1.5rem 3rem;
@@ -339,9 +365,35 @@
   <div class="inner">
     <p class="kicker">Early access</p>
     <h2>Help test it before launch</h2>
-    <p class="lede" style="margin-inline:auto">Wake at Sunrise is in closed beta on Android. Want in? Send a quick email and you'll get the test link — your feedback shapes the launch.</p>
-    <a class="btn js-mail" href="#beta">Get the beta link</a>
+    <p class="lede" style="margin-inline:auto">Wake at Sunrise is in closed beta on Android. Two quick steps and it's yours — your feedback shapes the launch.</p>
+
+    <!-- Shown once BETA_GROUP_URL and BETA_OPT_IN_URL are filled in below. -->
+    <ol class="beta-steps" id="beta-steps" hidden>
+      <li>
+        <span class="beta-step-n">1</span>
+        <div>
+          <strong>Join the tester group</strong>
+          <p>Google Play needs your account on the tester list before it will show you the app.</p>
+          <a class="btn btn-sm" id="beta-group" href="#beta">Join the group</a>
+        </div>
+      </li>
+      <li>
+        <span class="beta-step-n">2</span>
+        <div>
+          <strong>Accept the test and install</strong>
+          <p>Open this on the phone you'll test with, signed in to that same Google account.</p>
+          <a class="btn btn-sm" id="beta-optin" href="#beta">Open the test on Google Play</a>
+        </div>
+      </li>
+    </ol>
+
+    <!-- Fallback while the test is still being set up. -->
+    <p id="beta-soon">
+      <a class="btn js-mail" href="#beta">Ask for the beta link</a>
+    </p>
     <noscript><p style="margin-top:1rem">Email <strong>wakeatsunriseapp [at] gmail [dot] com</strong> with the subject "Wake at Sunrise beta".</p></noscript>
+
+    <p class="beta-note">Testing is free and there's nothing to buy. Please keep the app installed for a couple of weeks — Google counts continuous testers before it lets a new app go live.</p>
   </div>
 </section>
 
@@ -356,27 +408,31 @@
 </footer>
 
 <script>
-  // Paste the Play closed-testing "join on the web" URL here once it exists;
-  // every beta button then links straight to it (what forum testers expect).
-  // Empty string = the pre-launch email flow below.
+  // The two links a closed-test tester needs, in order. Fill both in and the
+  // step-by-step below replaces the "ask for the link" fallback:
+  //   1. the Google Group testers join (groups.google.com/g/<group>)
+  //   2. Play's "join on the web" opt-in URL, from the closed track's
+  //      Testers tab — only exists once the release is published.
+  var BETA_GROUP_URL = '';
   var BETA_OPT_IN_URL = '';
 
-  // Email assembled at runtime to keep the address out of scraper-friendly
-  // source.
   (function () {
+    // Email assembled at runtime to keep the address out of
+    // scraper-friendly source.
     var addr = ['wakeatsunriseapp', 'gmail.com'].join('@');
-    var subject = encodeURIComponent('Wake at Sunrise beta');
-    document.querySelectorAll('.js-mail, #cta-beta').forEach(function (a) {
-      if (a.classList.contains('js-mail') && a.textContent === 'Contact') {
-        a.href = 'mailto:' + addr + '?subject=' + subject;
-        return;
-      }
-      if (BETA_OPT_IN_URL) {
-        a.href = BETA_OPT_IN_URL;
-      } else if (a.id !== 'cta-beta') { // hero button scrolls to #beta
-        a.href = 'mailto:' + addr + '?subject=' + subject;
-      }
+    var mailto = 'mailto:' + addr + '?subject=' +
+      encodeURIComponent('Wake at Sunrise beta');
+    document.querySelectorAll('.js-mail').forEach(function (a) {
+      a.href = mailto;
     });
+
+    if (!BETA_GROUP_URL || !BETA_OPT_IN_URL) {
+      return;   // keep the email fallback until the test is live
+    }
+    document.getElementById('beta-group').href = BETA_GROUP_URL;
+    document.getElementById('beta-optin').href = BETA_OPT_IN_URL;
+    document.getElementById('beta-steps').hidden = false;
+    document.getElementById('beta-soon').hidden = true;
   })();
 </script>
 
