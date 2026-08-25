@@ -231,11 +231,5 @@
   .lang a[aria-current="true"] { color: var(--ink); font-weight: 700; }
   .lang .sep { color: rgba(247,241,232,.3); }
 
-  /* Step 2 before the Play track is live: still visible, clearly not yet
-     actionable — hiding it would make the flow look like one step. */
-  .btn-pending {
-    background: transparent; color: var(--ink-dim);
-    border: 1px dashed var(--card-edge); box-shadow: none;
-    cursor: default; font-weight: 600;
-  }
-  .btn-pending:hover { transform: none; box-shadow: none; }
+
+  .beta-mode[hidden] { display: none; }

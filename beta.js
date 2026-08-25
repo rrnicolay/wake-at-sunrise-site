@@ -1,22 +1,28 @@
-// The two links a closed-test tester needs, in order. Both landing pages
-// read this file, so filling them in here updates English and Portuguese
-// at once.
+// Which call to action the landing pages show. Both languages read this one
+// file, so filling a URL in here updates English and Portuguese together.
 //
-//   1. BETA_GROUP_URL  — the Google Group testers join
-//                        (groups.google.com/g/<group>). Exists as soon as
-//                        the group does, independently of Google Play.
-//   2. BETA_OPT_IN_URL — Play's "join on the web" URL, from the closed
-//                        track's Testers tab. Only exists once the release
-//                        has been published to that track.
+// Fill them in as the app moves forward — the page picks the furthest stage
+// it has a link for, and shows only that:
 //
-// Three states, because the group almost always comes first and recruiting
-// people into it is the slow part — no reason to make that wait on Google's
-// review:
-//   neither  -> the "ask for the link" email button
-//   group    -> both steps, with step 2 marked as not open yet
-//   both     -> the full flow
+//   nothing set        "ask for the link" email button
+//   GROUP              waitlist: one button, join the tester group
+//   GROUP + OPT_IN     closed beta: join the group, then accept the test
+//   PLAY               public: one button, download from Google Play
+//
+// The stages are separate blocks in the HTML rather than one block that
+// mutates, so each language writes its own wording and no stage can leave a
+// button behind that does not apply yet.
+//
+//   BETA_GROUP_URL   groups.google.com/g/<group> — exists as soon as the
+//                    group does, with no involvement from Google Play.
+//   BETA_OPT_IN_URL  the closed track's "join on the web" URL, from its
+//                    Testers tab. Only appears once a release there has
+//                    cleared review.
+//   PLAY_URL         play.google.com/store/apps/details?id=... — set this
+//                    at public launch and the beta disappears from the page.
 var BETA_GROUP_URL = '';
 var BETA_OPT_IN_URL = '';
+var PLAY_URL = '';
 
 (function () {
   // Email assembled at runtime to keep the address out of scraper-friendly
@@ -28,25 +34,36 @@ var BETA_OPT_IN_URL = '';
     a.href = mailto;
   });
 
-  if (!BETA_GROUP_URL) {
-    return;   // nothing to join yet; keep the email fallback
+  function show(id) {
+    document.querySelectorAll('.beta-mode').forEach(function (el) {
+      el.hidden = el.id !== id;
+    });
   }
 
-  var group = document.getElementById('beta-group');
-  var optin = document.getElementById('beta-optin');
-  group.href = BETA_GROUP_URL;
-
-  if (BETA_OPT_IN_URL) {
-    optin.href = BETA_OPT_IN_URL;
-  } else {
-    // The wording is per-language, so each page supplies it rather than
-    // this script carrying translations.
-    optin.textContent = optin.dataset.pending || optin.textContent;
-    optin.removeAttribute('href');
-    optin.setAttribute('aria-disabled', 'true');
-    optin.classList.add('btn-pending');
+  if (PLAY_URL) {
+    document.getElementById('public-play').href = PLAY_URL;
+    show('mode-public');
+    // The hero button leads to the store too, not to a beta that is over.
+    var hero = document.getElementById('cta-beta');
+    if (hero) {
+      hero.href = PLAY_URL;
+      hero.textContent = hero.dataset.labelPublic || hero.textContent;
+    }
+    return;
   }
 
-  document.getElementById('beta-steps').hidden = false;
-  document.getElementById('beta-soon').hidden = true;
+  if (BETA_GROUP_URL && BETA_OPT_IN_URL) {
+    document.getElementById('beta-group').href = BETA_GROUP_URL;
+    document.getElementById('beta-optin').href = BETA_OPT_IN_URL;
+    show('mode-beta');
+    return;
+  }
+
+  if (BETA_GROUP_URL) {
+    document.getElementById('waitlist-group').href = BETA_GROUP_URL;
+    show('mode-waitlist');
+    return;
+  }
+
+  show('mode-soon');
 })();

@@ -37,10 +37,20 @@ being wrong is worse than a visible switcher.
       every claim is accurate — `privacy.html` doubles as the privacy policy
       URL for the Play listing, and `delete-data.html` as its data-deletion
       URL.
-- [ ] When the closed test exists, fill in `BETA_GROUP_URL` and
-      `BETA_OPT_IN_URL` at the top of `beta.js`. Both pages read that one
-      file, so the step-by-step appears in English and Portuguese at once;
-      until then both fall back to the "ask for the link" email button.
+- [ ] Fill in the URLs at the top of `beta.js` as they come into
+      existence. The page shows the furthest stage it has a link for, in
+      both languages at once:
+
+      | Set | The page shows |
+      | --- | --- |
+      | nothing | "ask for the beta link" email button |
+      | `BETA_GROUP_URL` | waitlist: one button, join the tester group |
+      | `+ BETA_OPT_IN_URL` | closed beta: join the group, then accept the test |
+      | `PLAY_URL` | public: one button, download from Google Play |
+
+      The group URL exists as soon as the Google Group does, so the
+      waitlist can start collecting testers while Google reviews the
+      release.
 
 ## Notes
 

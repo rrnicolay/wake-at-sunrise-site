@@ -32,7 +32,8 @@
       <h1>O alarme que toca <em>quando o sol nasce</em> — onde quer que você esteja.</h1>
       <p class="tagline">O nascer do sol muda um pouco todo dia. Seu alarme deveria mudar também. O Wake at Sunrise calcula o nascer do sol de amanhã para a sua localização exata e toca nesse momento — ou nos minutos antes ou depois que combinarem com você.</p>
       <div class="cta-row">
-        <a class="btn" id="cta-beta" href="#beta">Participar do beta</a>
+        <a class="btn" id="cta-beta" href="#beta"
+           data-label-public="Baixar no Google Play">Participar do beta</a>
         <span class="cta-note">App Android gratuito · Sem anúncios · Sem conta<br>Em breve no Google Play</span>
       </div>
     </div>
@@ -126,39 +127,62 @@
 
 <section class="final-cta" id="beta">
   <div class="inner">
-    <p class="kicker">Acesso antecipado</p>
-    <h2>Ajude a testar antes do lançamento</h2>
-    <p class="lede" style="margin-inline:auto">O Wake at Sunrise está em beta fechado no Android. Dois passos rápidos e ele é seu — seu feedback molda o lançamento.</p>
 
-    <!-- Aparece assim que BETA_GROUP_URL e BETA_OPT_IN_URL forem preenchidos
-         em beta.js. -->
-    <ol class="beta-steps" id="beta-steps" hidden>
-      <li>
-        <span class="beta-step-n">1</span>
-        <div>
-          <strong>Entre no grupo de testadores</strong>
-          <p>O Google Play precisa da sua conta na lista de testadores antes de mostrar o app para você.</p>
-          <a class="btn btn-sm" id="beta-group" href="#beta">Entrar no grupo</a>
-        </div>
-      </li>
-      <li>
-        <span class="beta-step-n">2</span>
-        <div>
-          <strong>Aceite o teste e instale</strong>
-          <p>Abra este link no celular que você vai usar para testar, conectado nessa mesma conta do Google.</p>
-          <a class="btn btn-sm" id="beta-optin" href="#beta"
-             data-pending="Disponível quando o teste for publicado">Abrir o teste no Google Play</a>
-        </div>
-      </li>
-    </ol>
+    <!-- Lista de espera: o grupo existe, a faixa no Play ainda não abriu.
+         Uma ação só, porque entrar no grupo é genuinamente tudo o que há
+         para fazer neste momento. -->
+    <div class="beta-mode" id="mode-waitlist" hidden>
+      <p class="kicker">Acesso antecipado</p>
+      <h2>Entre na fila do beta</h2>
+      <p class="lede" style="margin-inline:auto">O Wake at Sunrise está prestes a começar um beta fechado no Android. Entre no grupo de testadores e você recebe o link de instalação assim que ele abrir.</p>
+      <a class="btn" id="waitlist-group" href="#beta">Entrar no grupo de testadores</a>
+      <p class="beta-note">Gratuito, sem nada para comprar. Use a conta do Google com que você vai instalar — é por ela que o Google Play sabe que deve mostrar o app para você.</p>
+    </div>
 
-    <!-- Enquanto o teste ainda está sendo configurado. -->
-    <p id="beta-soon">
+    <!-- Beta aberto: os dois links existem. Dois passos, porque o Play
+         realmente exige ser membro antes de o opt-in funcionar. -->
+    <div class="beta-mode" id="mode-beta" hidden>
+      <p class="kicker">Acesso antecipado</p>
+      <h2>Ajude a testar antes do lançamento</h2>
+      <p class="lede" style="margin-inline:auto">O Wake at Sunrise está em beta fechado no Android. Dois passos rápidos e ele é seu — seu feedback molda o lançamento.</p>
+      <ol class="beta-steps">
+        <li>
+          <span class="beta-step-n">1</span>
+          <div>
+            <strong>Entre no grupo de testadores</strong>
+            <p>O Google Play precisa da sua conta na lista de testadores antes de mostrar o app. Já entrou? Pule para o passo 2.</p>
+            <a class="btn btn-sm" id="beta-group" href="#beta">Entrar no grupo</a>
+          </div>
+        </li>
+        <li>
+          <span class="beta-step-n">2</span>
+          <div>
+            <strong>Aceite o teste e instale</strong>
+            <p>Abra este link no celular que você vai usar para testar, conectado nessa mesma conta do Google.</p>
+            <a class="btn btn-sm" id="beta-optin" href="#beta">Abrir o teste no Google Play</a>
+          </div>
+        </li>
+      </ol>
+      <p class="beta-note">Testar é gratuito e não há nada para comprar. Por favor, mantenha o app instalado por algumas semanas — o Google conta testadores contínuos antes de liberar um app novo.</p>
+    </div>
+
+    <!-- Público: o app está na loja. O beta virou história. -->
+    <div class="beta-mode" id="mode-public" hidden>
+      <p class="kicker">Download</p>
+      <h2>Acorde com a luz amanhã</h2>
+      <p class="lede" style="margin-inline:auto">O Wake at Sunrise está no Google Play. Gratuito, sem anúncios, sem conta.</p>
+      <a class="btn" id="public-play" href="#beta">Baixar no Google Play</a>
+    </div>
+
+    <!-- Nada configurado ainda. -->
+    <div class="beta-mode" id="mode-soon">
+      <p class="kicker">Acesso antecipado</p>
+      <h2>Ajude a testar antes do lançamento</h2>
+      <p class="lede" style="margin-inline:auto">O Wake at Sunrise está terminando um beta fechado no Android. Quer entrar? Mande um e-mail rápido e você recebe o link.</p>
       <a class="btn js-mail" href="#beta">Pedir o link do beta</a>
-    </p>
-    <noscript><p style="margin-top:1rem">Escreva para <strong>wakeatsunriseapp [arroba] gmail [ponto] com</strong> com o assunto "Wake at Sunrise beta".</p></noscript>
+      <noscript><p style="margin-top:1rem">Escreva para <strong>wakeatsunriseapp [arroba] gmail [ponto] com</strong> com o assunto "Wake at Sunrise beta".</p></noscript>
+    </div>
 
-    <p class="beta-note">Testar é gratuito e não há nada para comprar. Por favor, mantenha o app instalado por algumas semanas — o Google conta testadores contínuos antes de liberar um app novo.</p>
   </div>
 </section>
 
