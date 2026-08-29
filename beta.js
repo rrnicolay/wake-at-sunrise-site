@@ -20,7 +20,7 @@
 //                    cleared review.
 //   PLAY_URL         play.google.com/store/apps/details?id=... — set this
 //                    at public launch and the beta disappears from the page.
-var BETA_GROUP_URL = '';
+var BETA_GROUP_URL = 'https://groups.google.com/g/wake-at-sunrise-beta';
 var BETA_OPT_IN_URL = '';
 var PLAY_URL = '';
 
