@@ -34,6 +34,22 @@ var PLAY_URL = '';
     a.href = mailto;
   });
 
+  // Relabels (and optionally retargets) the hero button for the current
+  // stage. Wording comes from the page's data attributes, so translations
+  // stay in the HTML; a missing attribute leaves the default text alone.
+  function heroLabel(key, href) {
+    var hero = document.getElementById('cta-beta');
+    if (!hero) {
+      return;
+    }
+    if (hero.dataset[key]) {
+      hero.textContent = hero.dataset[key];
+    }
+    if (href) {
+      hero.href = href;
+    }
+  }
+
   function show(id) {
     document.querySelectorAll('.beta-mode').forEach(function (el) {
       el.hidden = el.id !== id;
@@ -44,11 +60,7 @@ var PLAY_URL = '';
     document.getElementById('public-play').href = PLAY_URL;
     show('mode-public');
     // The hero button leads to the store too, not to a beta that is over.
-    var hero = document.getElementById('cta-beta');
-    if (hero) {
-      hero.href = PLAY_URL;
-      hero.textContent = hero.dataset.labelPublic || hero.textContent;
-    }
+    heroLabel('labelPublic', PLAY_URL);
     return;
   }
 
@@ -61,6 +73,9 @@ var PLAY_URL = '';
 
   if (BETA_GROUP_URL) {
     document.getElementById('waitlist-group').href = BETA_GROUP_URL;
+    // Until the track opens there is no beta to join yet, only a queue —
+    // the hero button should not promise more than the section delivers.
+    heroLabel('labelWaitlist');
     show('mode-waitlist');
     return;
   }
