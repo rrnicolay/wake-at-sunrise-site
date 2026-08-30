@@ -21,7 +21,7 @@
 //   PLAY_URL         play.google.com/store/apps/details?id=... — set this
 //                    at public launch and the beta disappears from the page.
 var BETA_GROUP_URL = 'https://groups.google.com/g/wake-at-sunrise-beta';
-var BETA_OPT_IN_URL = '';
+var BETA_OPT_IN_URL = 'https://play.google.com/apps/testing/io.github.rrnicolay.wakeatsunrise';
 var PLAY_URL = '';
 
 (function () {
