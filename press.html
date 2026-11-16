@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Press kit — Wake at Sunrise</title>
+<meta name="description" content="Press kit for Wake at Sunrise, the Android alarm that rings at the real sunrise: facts, icon, screenshots and contact.">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="doc.css">
+<style>
+  .kit { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:1rem; margin:1rem 0 1.5rem; }
+  .kit figure { margin:0; }
+  .kit img { width:100%; height:auto; border-radius:10px; border:1px solid rgba(0,0,0,.1); display:block; }
+  .kit figure.wide { grid-column:1/-1; }
+  .kit figcaption { font-size:.85rem; margin-top:.35rem; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="index.html">← Wake at Sunrise</a>
+  <h1>Press kit</h1>
+  <p class="updated">Updated November 16, 2026 · <a href="imprensa.html" lang="pt-BR">Português</a></p>
+
+  <p>Wake at Sunrise is an Android alarm clock that rings at the real sunrise where you are — computed on the phone — and moves with it a minute or two a day through the seasons and across time zones. Users choose to wake at sunrise or any number of minutes before or after it. It is free, with an optional Premium for gentle wake-up sounds and bedtime reminders; there is no account and no ads, and the location never leaves the device. It is built by an independent developer.</p>
+
+  <table>
+    <tr><th>Name</th><td>Wake at Sunrise</td></tr>
+    <tr><th>Developer</th><td>Independent developer</td></tr>
+    <tr><th>Platform</th><td>Android 7.0 and later · iOS in development</td></tr>
+    <tr><th>Released</th><td>November 16, 2026, on Google Play</td></tr>
+    <tr><th>Price</th><td>Free · optional Premium, yearly or one-time lifetime</td></tr>
+    <tr><th>Languages</th><td>English, Portuguese (Brazil)</td></tr>
+    <tr><th>Privacy</th><td>No account, no ads, no tracking; sunrise computed on the device</td></tr>
+  </table>
+
+  <h2>Images</h2>
+  <div class="kit">
+    <figure class="wide"><a href="press/feature-graphic-en.png" download><img src="press/feature-graphic-en.png" alt="Wake at Sunrise feature graphic" loading="lazy"></a><figcaption>Feature graphic, 1024×500 · <a href="press/feature-graphic-en.png" download>Download</a></figcaption></figure>
+    <figure><a href="press/icon-512.png" download><img src="press/icon-512.png" alt="Wake at Sunrise app icon" loading="lazy"></a><figcaption>App icon, 512×512 · <a href="press/icon-512.png" download>Download</a></figcaption></figure>
+    <figure><a href="press/screen-en-01_home.png" download><img src="press/screen-en-01_home.png" alt="Home screen showing tomorrow's wake-up time" loading="lazy"></a><figcaption>Home · <a href="press/screen-en-01_home.png" download>Download</a></figcaption></figure>
+    <figure><a href="press/screen-en-02_ring.png" download><img src="press/screen-en-02_ring.png" alt="The ring screen with Stop and Snooze" loading="lazy"></a><figcaption>Ring screen · <a href="press/screen-en-02_ring.png" download>Download</a></figcaption></figure>
+    <figure><a href="press/screen-en-04_sleep.png" download><img src="press/screen-en-04_sleep.png" alt="Settings, including volume, snooze and the bedtime reminder" loading="lazy"></a><figcaption>Settings · <a href="press/screen-en-04_sleep.png" download>Download</a></figcaption></figure>
+  </div>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dpress%26utm_medium%3Demail%26utm_campaign%3Dlaunch-2026">Wake at Sunrise on Google Play</a></li>
+    <li><a href="index.html">Website</a></li>
+    <li><a href="privacy.html">Privacy policy</a></li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>For interviews, review codes or anything else, write to <a class="js-mail" href="#">the developer email</a>.</p>
+  <noscript><p>wakeatsunriseapp [at] gmail [dot] com</p></noscript>
+</main>
+<script>
+  // Assembled at runtime to keep the address out of scraper-friendly source.
+  var addr = ['wakeatsunriseapp', 'gmail.com'].join('@');
+  document.querySelectorAll('.js-mail').forEach(function (a) {
+    a.href = 'mailto:' + addr + '?subject=' + encodeURIComponent('Wake at Sunrise — press');
+    a.textContent = addr;
+  });
+</script>
+</body>
+</html>

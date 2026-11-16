@@ -22,14 +22,16 @@
 //                    at public launch and the beta disappears from the page.
 var BETA_GROUP_URL = 'https://groups.google.com/g/wake-at-sunrise-beta';
 var BETA_OPT_IN_URL = 'https://play.google.com/apps/testing/io.github.rrnicolay.wakeatsunrise';
-var PLAY_URL = '';
+// Public since 2026-11-16. Tagged with utm_source=site so Play Console's
+// acquisition report counts installs that came from this page.
+var PLAY_URL = 'https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026';
 
 (function () {
   // Email assembled at runtime to keep the address out of scraper-friendly
   // source.
   var addr = ['wakeatsunriseapp', 'gmail.com'].join('@');
   var mailto = 'mailto:' + addr + '?subject=' +
-    encodeURIComponent('Wake at Sunrise beta');
+    encodeURIComponent('Wake at Sunrise');
   document.querySelectorAll('.js-mail').forEach(function (a) {
     a.href = mailto;
   });
