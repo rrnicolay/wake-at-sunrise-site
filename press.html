@@ -15,13 +15,19 @@
   .kit img { width:100%; height:auto; border-radius:10px; border:1px solid rgba(0,0,0,.1); display:block; }
   .kit figure.wide { grid-column:1/-1; }
   .kit figcaption { font-size:.85rem; margin-top:.35rem; }
+  .stores { display:flex; flex-wrap:wrap; gap:.75rem; margin:1.4rem 0 .4rem; }
+  .store { display:inline-flex; flex-direction:column; justify-content:center; min-width:11rem; padding:.55rem 1.1rem; border-radius:12px; border:1px solid rgba(247,241,232,.35); background:#0d0a22; color:#f7f1e8; text-decoration:none; line-height:1.25; }
+  .store small { font-size:.72rem; letter-spacing:.04em; text-transform:uppercase; color:rgba(247,241,232,.7); }
+  .store b { font-size:1.05rem; }
+  a.store:hover { border-color:#ffb347; }
+  .store.soon { opacity:.6; border-style:dashed; }
 </style>
 </head>
 <body>
 <main>
   <a class="back" href="index.html">← Wake at Sunrise</a>
   <h1>Press kit</h1>
-  <p class="updated">Updated November 16, 2026 · <a href="imprensa.html" lang="pt-BR">Português</a></p>
+  <p class="updated">Updated November 18, 2026 · <a href="imprensa.html" lang="pt-BR">Português</a></p>
 
   <p>Wake at Sunrise is an Android alarm clock that rings at the real sunrise where you are — computed on the phone — and moves with it a minute or two a day through the seasons and across time zones. Users choose to wake at sunrise or any number of minutes before or after it. It is free, with an optional Premium for gentle wake-up sounds and bedtime reminders; there is no account and no ads, and the location never leaves the device. It is built by an independent developer.</p>
 
@@ -34,6 +40,11 @@
     <tr><th>Languages</th><td>English, Portuguese (Brazil)</td></tr>
     <tr><th>Privacy</th><td>No account, no ads, no tracking; sunrise computed on the device</td></tr>
   </table>
+
+  <div class="stores">
+    <a class="store" href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&amp;referrer=utm_source%3Dpress%26utm_medium%3Demail%26utm_campaign%3Dlaunch-2026"><small>Get it on</small><b>Google Play</b></a>
+    <span class="store soon" aria-label="App Store version coming soon"><small>Coming soon to the</small><b>App Store</b></span>
+  </div>
 
   <h2>Images</h2>
   <div class="kit">
