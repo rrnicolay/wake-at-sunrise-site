@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Como o app calcula o nascer do sol — Wake at Sunrise</title>
+<meta name="description" content="A localização, as equações solares da NOAA, o cache e o alarme do sistema: exatamente como o app transforma o lugar onde você está no alarme de amanhã, e qual é a precisão.">
+<meta property="og:title" content="Como o Wake at Sunrise calcula o nascer do sol no seu celular">
+<meta property="og:description" content="A localização, as equações solares da NOAA, o cache e o alarme do sistema: exatamente como o app transforma o lugar onde você está no alarme de amanhã, e qual é a precisão.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-pt.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Como o Wake at Sunrise calcula o nascer do sol no seu celular",
+  "description": "A localização, as equações solares da NOAA, o cache e o alarme do sistema: exatamente como o app transforma o lugar onde você está no alarme de amanhã, e qual é a precisão.",
+  "inLanguage": "pt-BR",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-pt.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"
+}
+</script>
+</head>
+<body>
+<main>
+  <a class="back" href="../pt.html">← Wake at Sunrise</a>
+  <h1>Como o Wake at Sunrise calcula o nascer do sol no seu celular</h1>
+  <p class="updated">18 de novembro de 2026 · <a href="how-the-app-computes-sunrise.html" lang="en">English</a></p>
+
+  <p>O Wake at Sunrise toca no nascer do sol real onde você está. Não há servidor por trás disso: o celular faz todo o trabalho. Veja exatamente como, passo a passo, incluindo os limites.</p>
+
+  <h2>1. Onde você está, mais ou menos</h2>
+  <p>O app pede precisão de rede, não a precisão do GPS (no Android ele solicita apenas a localização aproximada), então a posição fica certa dentro de algo entre cem metros e alguns quilômetros. Isso basta, porque o nascer do sol muda devagar no mapa: cerca de um minuto a cada 20 ou 30 km que você anda para leste ou oeste. O app guarda as últimas coordenadas que recebeu, para mostrar o nascer do sol de amanhã na hora em que abre, e as atualiza em segundo plano. Se você se moveu mais de 25 km, ele recalcula. As coordenadas nunca saem do celular.</p>
+
+  <h2>2. As equações solares</h2>
+  <p>O nascer do sol vem das equações que a NOAA usa na sua calculadora solar, baseadas no livro <em>Astronomical Algorithms</em>, de Jean Meeus (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, detalhes do cálculo</a>). O app usa uma implementação de código aberto dessas equações, o pacote <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a>, uma versão do <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>. Para uma data e um lugar, ele calcula:</p>
+  <ul>
+    <li>onde a Terra está na sua órbita, a partir do dia juliano;</li>
+    <li>a posição aparente do Sol em relação às estrelas e, a partir dela, a declinação solar, ou seja, quanto o Sol está ao norte ou ao sul do Equador;</li>
+    <li>a equação do tempo, a diferença entre a hora solar e a hora do relógio naquela data;</li>
+    <li>o momento em que o centro do Sol está a 90,833 graus do ponto bem acima da sua cabeça.</li>
+  </ul>
+  <p>Esse último número é a definição de nascer do sol. Os 0,833 grau extras abaixo do horizonte somam o raio do Sol, já que o nascer do sol é quando a borda de cima aparece, e a curvatura da luz na atmosfera, que nos deixa ver o Sol um pouco antes de ele estar geometricamente acima do horizonte.</p>
+
+  <h2>3. Força bruta, e depois um cache</h2>
+  <p>O pacote encontra o nascer do sol calculando a posição do Sol para cada segundo do dia, o que leva uns 80 milissegundos por data num celular. É lento demais para repetir enquanto você arrasta o controle de ajuste, então o app calcula doze dias de uma vez numa tarefa em segundo plano, guarda o resultado e depois lê da memória. O gráfico do ano na tela inicial usa datas espalhadas pelo ano inteiro, também calculadas em segundo plano.</p>
+
+  <h2>4. Do nascer do sol ao alarme</h2>
+  <p>O app soma o seu ajuste (até 60 minutos antes ou depois do nascer do sol), arredonda para o minuto mais próximo, para que o alarme toque exatamente no horário que aparece na tela, e procura o próximo dia que seja um dos dias da semana escolhidos. Ele trabalha em UTC e deixa as regras de fuso do próprio celular converterem para o horário local, então horário de verão e troca de fuso ficam a cargo do sistema operacional.</p>
+  <p>Depois ele entrega o alarme ao sistema: o serviço de alarmes do Android, ou o AlarmKit, o framework de alarmes que a Apple lançou no iOS 26. É por isso que o alarme toca mesmo com o app fechado. No Android, uma tarefa em segundo plano confere o agendamento várias vezes por dia e depois de uma reinicialização. No iOS, as próximas manhãs ficam agendadas com antecedência no AlarmKit e são reabastecidas quando você abre o app ou para um alarme.</p>
+
+  <h2>Qual é a precisão?</h2>
+  <p>A NOAA informa que os resultados de nascer e pôr do sol têm precisão de um minuto entre 72 graus norte e sul, e de dez minutos além disso. Na prática, as diferenças maiores vêm do mundo real:</p>
+  <ul>
+    <li><strong>O horizonte.</strong> As equações supõem um horizonte plano ao nível do mar. Montanhas, morros e prédios a leste fazem você ver o sol mais tarde.</li>
+    <li><strong>A atmosfera.</strong> A refração muda com a temperatura e a pressão, o que pode mexer um ou dois minutos no nascer do sol visível.</li>
+    <li><strong>A altitude.</strong> De um lugar alto você vê o sol um pouco antes. O app não usa a altitude.</li>
+  </ul>
+
+  <h2>Quando não há nascer do sol</h2>
+  <p>Acima do Círculo Polar Ártico no inverno, e abaixo do Antártico em junho, há dias em que o sol não nasce. Nesses dias não há nascer do sol para tocar, então o alarme não toca. O app procura até nove dias à frente o próximo nascer do sol real num dos seus dias da semana. Se você mora num desses lugares, o app não é o despertador certo para a noite polar.</p>
+
+  <h2>O que nunca acontece</h2>
+  <p>Nenhuma localização é enviada, não é preciso criar conta e não há anúncios. As únicas coisas que saem do celular são relatórios de erro, sem a sua localização, e registros de compra processados pela RevenueCat se você comprar o Premium, como descrito na <a href="../privacidade.html">política de privacidade</a>.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Baixar o Wake at Sunrise no Google Play</a></p>
+
+  <h2>Mais artigos</h2>
+  <ul>
+    <li><a href="nascer-do-sol-ao-longo-do-ano.html">Quanto o nascer do sol muda ao longo do ano</a></li>
+    <li><a href="acordar-com-o-sol-em-viagem.html">Acordar com o sol em viagem</a></li>
+    <li><a href="apps-de-nascer-do-sol-vs-luminarias.html">Apps de nascer do sol ou luminárias de despertar?</a></li>
+    <li><a href="acordar-com-o-sol.html">Por que acordar com o sol funciona</a></li>
+  </ul>
+
+  <h2>Fontes</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA Global Monitoring Laboratory: detalhes do cálculo solar</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc no pub.dev</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset no GitHub</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>

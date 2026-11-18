@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How the app computes sunrise — Wake at Sunrise</title>
+<meta name="description" content="The location, the NOAA solar equations, the cache and the system alarm: exactly how the app turns where you are into tomorrow&#x27;s alarm, and how accurate it is.">
+<meta property="og:title" content="How Wake at Sunrise computes the sunrise on your phone">
+<meta property="og:description" content="The location, the NOAA solar equations, the cache and the system alarm: exactly how the app turns where you are into tomorrow&#x27;s alarm, and how accurate it is.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Wake at Sunrise computes the sunrise on your phone",
+  "description": "The location, the NOAA solar equations, the cache and the system alarm: exactly how the app turns where you are into tomorrow's alarm, and how accurate it is.",
+  "inLanguage": "en",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-en.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"
+}
+</script>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← Wake at Sunrise</a>
+  <h1>How Wake at Sunrise computes the sunrise on your phone</h1>
+  <p class="updated">November 18, 2026 · <a href="como-o-app-calcula-o-nascer-do-sol.html" lang="pt-BR">Português</a></p>
+
+  <p>Wake at Sunrise rings at the real sunrise where you are. There is no server behind that: the phone does all the work. Here is exactly how, step by step, including the limits.</p>
+
+  <h2>1. Where you are, approximately</h2>
+  <p>The app asks for network-level accuracy, not GPS precision (on Android it requests only approximate location), so the fix is good to somewhere between a hundred metres and a few kilometres. That is enough, because sunrise changes slowly across the map: by about a minute for every 20 to 30 km you move east or west. The app keeps the last coordinates it got, so it can show tomorrow's sunrise instantly when it opens, and refreshes them in the background. If you have moved more than 25 km, it recomputes. The coordinates never leave the phone.</p>
+
+  <h2>2. The solar equations</h2>
+  <p>The sunrise itself comes from the equations NOAA uses in its Solar Calculator, which are based on Jean Meeus's book <em>Astronomical Algorithms</em> (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, calculation details</a>). The app uses an open-source implementation of them, the <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a> package, a port of <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>. For a given date and place it works out:</p>
+  <ul>
+    <li>where the Earth is in its orbit, from the Julian day;</li>
+    <li>the sun's apparent position against the stars, and from it the sun's declination, how far north or south of the equator it is;</li>
+    <li>the equation of time, the difference between sun time and clock time on that date;</li>
+    <li>the moment the sun's centre is 90.833 degrees from straight overhead.</li>
+  </ul>
+  <p>That last number is the definition of sunrise. The extra 0.833 degrees below the horizon count the sun's radius, since sunrise is when the top edge appears, plus the bending of light by the atmosphere, which lets us see the sun slightly before it is geometrically above the horizon.</p>
+
+  <h2>3. Brute force, then a cache</h2>
+  <p>The package finds sunrise by evaluating the sun's position for every second of the day, which takes around 80 milliseconds per date on a phone. That is too slow to repeat while you drag the offset slider, so the app computes twelve days at once in a background thread, stores them, and reads them from memory after that. The year chart on the home screen samples dates across the whole year, also in a background thread.</p>
+
+  <h2>4. From sunrise to an alarm</h2>
+  <p>The app adds your offset (up to 60 minutes before or after sunrise), rounds to the nearest minute so the alarm rings at exactly the time it displays, and finds the next day that is one of your chosen weekdays. It works in UTC and lets the phone's own time-zone rules convert to local time, so daylight saving changes and time-zone changes are handled by the operating system.</p>
+  <p>Then it hands the alarm to the system: Android's alarm service, or AlarmKit, Apple's alarm framework introduced in iOS 26. That is why the alarm rings even if the app is closed. On Android, a background task checks the schedule several times a day and after a restart. On iOS, upcoming mornings are scheduled ahead with AlarmKit and refilled when you open the app or stop an alarm.</p>
+
+  <h2>How accurate is it?</h2>
+  <p>NOAA states that its sunrise and sunset results are accurate to within a minute between 72 degrees north and south, and within ten minutes beyond that. In practice the bigger differences come from the real world:</p>
+  <ul>
+    <li><strong>The horizon.</strong> The equations assume a flat sea-level horizon. Mountains, hills and buildings to the east mean you see the sun later.</li>
+    <li><strong>The atmosphere.</strong> Refraction varies with temperature and pressure, which can move the visible sunrise by a minute or two.</li>
+    <li><strong>Altitude.</strong> From high ground you see the sun a little earlier. The app does not use altitude.</li>
+  </ul>
+
+  <h2>When there is no sunrise</h2>
+  <p>North of the Arctic Circle in winter, and south of the Antarctic one in June, there are days when the sun does not rise. On those days there is no sunrise to ring at, so the alarm does not ring. The app looks up to nine days ahead for the next real sunrise on one of your weekdays. If you live there, the app is not the right alarm for polar night.</p>
+
+  <h2>What never happens</h2>
+  <p>No location is uploaded, no account is needed and there are no ads. The only things that leave the phone are crash reports, without your location, and purchase records processed by RevenueCat if you buy Premium, as described in the <a href="../privacy.html">privacy policy</a>.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Get Wake at Sunrise on Google Play</a></p>
+
+  <h2>More articles</h2>
+  <ul>
+    <li><a href="sunrise-through-the-year.html">How far sunrise moves through the year</a></li>
+    <li><a href="waking-at-sunrise-while-travelling.html">Waking at sunrise while travelling</a></li>
+    <li><a href="sunrise-alarm-apps-vs-sunrise-lamps.html">Sunrise alarm apps vs sunrise lamps</a></li>
+    <li><a href="waking-with-the-sun.html">Why waking up with the sun works</a></li>
+  </ul>
+
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA Global Monitoring Laboratory: Solar Calculation Details</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc on pub.dev</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset on GitHub</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>
