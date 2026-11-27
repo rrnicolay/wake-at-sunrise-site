@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slik beregner appen soloppgangen – Wake at Sunrise</title>
+<meta name="description" content="Posisjonen, NOAAs solligninger, mellomlageret og systemalarmen: nøyaktig hvordan appen gjør stedet du er på, om til morgendagens alarm, og hvor nøyaktig den er.">
+<meta property="og:title" content="Slik beregner Wake at Sunrise soloppgangen på telefonen din">
+<meta property="og:description" content="Posisjonen, NOAAs solligninger, mellomlageret og systemalarmen: nøyaktig hvordan appen gjør stedet du er på, om til morgendagens alarm, og hvor nøyaktig den er.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-nb.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Slik beregner Wake at Sunrise soloppgangen på telefonen din",
+  "description": "Posisjonen, NOAAs solligninger, mellomlageret og systemalarmen: nøyaktig hvordan appen gjør stedet du er på, om til morgendagens alarm, og hvor nøyaktig den er.",
+  "inLanguage": "nb",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-nb.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"
+}
+</script>
+<script src="../../lang.js"></script>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← Wake at Sunrise</a>
+  <h1>Slik beregner Wake at Sunrise soloppgangen på telefonen din</h1>
+  <div class="updated">18. november 2026 · <details class="langmenu"><summary>Norsk</summary><ul><li><a href="../../articles/how-the-app-computes-sunrise.html" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../articles/como-o-app-calcula-o-nascer-do-sol.html" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português</a></li><li><a href="../../de/articles/how-the-app-computes-sunrise.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="../../es/articles/how-the-app-computes-sunrise.html" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../nl/articles/how-the-app-computes-sunrise.html" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="../../sv/articles/how-the-app-computes-sunrise.html" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="how-the-app-computes-sunrise.html" hreflang="nb" lang="nb" data-lang="nb" aria-current="page">Norsk</a></li><li><a href="../../da/articles/how-the-app-computes-sunrise.html" hreflang="da" lang="da" data-lang="da">Dansk</a></li><li><a href="../../fi/articles/how-the-app-computes-sunrise.html" hreflang="fi" lang="fi" data-lang="fi">Suomi</a></li><li><a href="../../ru/articles/how-the-app-computes-sunrise.html" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li></ul></details></div>
+
+  <p>Wake at Sunrise ringer ved den ekte soloppgangen der du er. Det står ingen server bak: Telefonen gjør hele jobben. Her er nøyaktig hvordan, steg for steg, inkludert begrensningene.</p>
+
+  <h2>1. Omtrent hvor du er</h2>
+  <p>Appen ber om nøyaktighet på nettverksnivå, ikke GPS-presisjon (på Android ber den bare om omtrentlig posisjon), så posisjonen er nøyaktig til et sted mellom hundre meter og noen få kilometer. Det er nok, fordi soloppgangen endrer seg langsomt over kartet: med omtrent ett minutt for hver 20 til 30 km du flytter deg mot øst eller vest. Appen tar vare på de siste koordinatene den fikk, så den kan vise morgendagens soloppgang med en gang når den åpnes, og oppdaterer dem i bakgrunnen. Hvis du har flyttet deg mer enn 25 km, beregner den på nytt. Koordinatene forlater aldri telefonen.</p>
+
+  <h2>2. Solligningene</h2>
+  <p>Selve soloppgangen kommer fra ligningene NOAA bruker i sin Solar Calculator, som bygger på Jean Meeus' bok <em>Astronomical Algorithms</em> (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, detaljer om beregningen</a>). Appen bruker en åpen kildekode-implementering av dem, pakken <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a>, en portering av <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>. For en gitt dato og et gitt sted regner den ut:</p>
+  <ul>
+    <li>hvor jorden er i banen sin, ut fra den julianske dagen;</li>
+    <li>solens tilsynelatende posisjon mot stjernene, og ut fra den solens deklinasjon, hvor langt nord eller sør for ekvator den står;</li>
+    <li>tidsjevningen, forskjellen mellom soltid og klokketid på den datoen;</li>
+    <li>øyeblikket da solens sentrum er 90,833 grader fra senit, rett over hodet.</li>
+  </ul>
+  <p>Det siste tallet er definisjonen på soloppgang. De ekstra 0,833 gradene under horisonten tar høyde for solens radius, siden soloppgangen er når den øverste kanten viser seg, pluss lysets avbøyning i atmosfæren, som gjør at vi ser solen litt før den geometrisk sett står over horisonten.</p>
+
+  <h2>3. Rå kraft, og så et mellomlager</h2>
+  <p>Pakken finner soloppgangen ved å beregne solens posisjon for hvert sekund av døgnet, noe som tar rundt 80 millisekunder per dato på en telefon. Det er for tregt til å gjentas mens du drar i glidebryteren for forskyvning, så appen beregner tolv dager på en gang i en bakgrunnstråd, lagrer dem og leser dem fra minnet etter det. Årsdiagrammet på startskjermen tar prøver av datoer gjennom hele året, også i en bakgrunnstråd.</p>
+
+  <h2>4. Fra soloppgang til alarm</h2>
+  <p>Appen legger til forskyvningen din (opptil 60 minutter før eller etter soloppgang), runder av til nærmeste minutt så alarmen ringer akkurat på det klokkeslettet den viser, og finner neste dag som er en av ukedagene du har valgt. Den regner i UTC og lar telefonens egne tidssoneregler gjøre om til lokal tid, så overganger til og fra sommertid og bytte av tidssone håndteres av operativsystemet.</p>
+  <p>Deretter gir den alarmen videre til systemet: Androids alarmtjeneste, eller AlarmKit, Apples alarmrammeverk som kom med iOS 26. Det er derfor alarmen ringer selv om appen er lukket. På Android sjekker en bakgrunnsoppgave tidsplanen flere ganger om dagen og etter en omstart. På iOS planlegges de kommende morgenene på forhånd med AlarmKit og fylles på når du åpner appen eller stopper en alarm.</p>
+
+  <h2>Hvor nøyaktig er det?</h2>
+  <p>NOAA oppgir at resultatene for soloppgang og solnedgang er nøyaktige innenfor ett minutt mellom 72 grader nord og sør, og innenfor ti minutter utenfor det. I praksis kommer de største avvikene fra den virkelige verden:</p>
+  <ul>
+    <li><strong>Horisonten.</strong> Ligningene forutsetter en flat horisont i havnivå. Fjell, åser og bygninger mot øst gjør at du ser solen senere.</li>
+    <li><strong>Atmosfæren.</strong> Lysbrytningen varierer med temperatur og trykk, noe som kan flytte den synlige soloppgangen med et minutt eller to.</li>
+    <li><strong>Høyden over havet.</strong> Fra høytliggende steder ser du solen litt tidligere. Appen bruker ikke høyden over havet.</li>
+  </ul>
+
+  <h2>Når det ikke blir noen soloppgang</h2>
+  <p>Nord for polarsirkelen om vinteren, og sør for den antarktiske polarsirkelen i juni, finnes det dager da solen ikke står opp. Da finnes det ingen soloppgang å ringe ved, så alarmen ringer ikke. Appen ser opptil ni dager fram i tid etter neste ekte soloppgang på en av ukedagene dine. Hvis du bor der, er ikke appen den rette alarmen for mørketiden.</p>
+
+  <h2>Hva som aldri skjer</h2>
+  <p>Ingen posisjon lastes opp, du trenger ingen konto, og det er ingen reklame. Det eneste som forlater telefonen, er krasjrapporter, uten posisjonen din, og kjøpsposter som behandles av RevenueCat hvis du kjøper Premium, slik det er beskrevet i <a href="../privacy.html">personvernerklæringen</a>.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Last ned Wake at Sunrise fra Google Play</a></p>
+
+  <h2>Flere artikler</h2>
+  <ul>
+    <li><a href="sunrise-through-the-year.html">Hvor mye soloppgangen flytter seg gjennom året</a></li>
+    <li><a href="waking-at-sunrise-while-travelling.html">Å våkne ved soloppgang på reise</a></li>
+    <li><a href="waking-with-the-sun.html">Hvorfor det virker å våkne med solen</a></li>
+  </ul>
+
+  <h2>Kilder</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA Global Monitoring Laboratory: Solar Calculation Details</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc på pub.dev</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset på GitHub</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>

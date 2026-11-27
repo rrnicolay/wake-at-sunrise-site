@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miten sovellus laskee auringonnousun – Wake at Sunrise</title>
+<meta name="description" content="Sijainti, NOAA:n aurinkoyhtälöt, välimuisti ja järjestelmän herätys: tarkalleen miten sovellus muuttaa sijaintisi huomiseksi herätykseksi ja kuinka tarkka se on.">
+<meta property="og:title" content="Miten Wake at Sunrise laskee auringonnousun puhelimessasi">
+<meta property="og:description" content="Sijainti, NOAA:n aurinkoyhtälöt, välimuisti ja järjestelmän herätys: tarkalleen miten sovellus muuttaa sijaintisi huomiseksi herätykseksi ja kuinka tarkka se on.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-fi.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Miten Wake at Sunrise laskee auringonnousun puhelimessasi",
+  "description": "Sijainti, NOAA:n aurinkoyhtälöt, välimuisti ja järjestelmän herätys: tarkalleen miten sovellus muuttaa sijaintisi huomiseksi herätykseksi ja kuinka tarkka se on.",
+  "inLanguage": "fi",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-fi.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"
+}
+</script>
+<script src="../../lang.js"></script>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← Wake at Sunrise</a>
+  <h1>Miten Wake at Sunrise laskee auringonnousun puhelimessasi</h1>
+  <div class="updated">18.11.2026 · <details class="langmenu"><summary>Suomi</summary><ul><li><a href="../../articles/how-the-app-computes-sunrise.html" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../articles/como-o-app-calcula-o-nascer-do-sol.html" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português</a></li><li><a href="../../de/articles/how-the-app-computes-sunrise.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="../../es/articles/how-the-app-computes-sunrise.html" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../nl/articles/how-the-app-computes-sunrise.html" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="../../sv/articles/how-the-app-computes-sunrise.html" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="../../nb/articles/how-the-app-computes-sunrise.html" hreflang="nb" lang="nb" data-lang="nb">Norsk</a></li><li><a href="../../da/articles/how-the-app-computes-sunrise.html" hreflang="da" lang="da" data-lang="da">Dansk</a></li><li><a href="how-the-app-computes-sunrise.html" hreflang="fi" lang="fi" data-lang="fi" aria-current="page">Suomi</a></li><li><a href="../../ru/articles/how-the-app-computes-sunrise.html" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li></ul></details></div>
+
+  <p>Wake at Sunrise soi todellisen auringonnousun aikaan siellä, missä olet. Sen takana ei ole palvelinta: puhelin tekee kaiken työn. Tässä kerrotaan tarkalleen miten, vaihe vaiheelta, rajoitukset mukaan lukien.</p>
+
+  <h2>1. Missä olet, suunnilleen</h2>
+  <p>Sovellus pyytää verkkotason tarkkuutta, ei GPS-tarkkuutta (Androidilla se pyytää vain likimääräistä sijaintia), joten sijainti on tarkka jonnekin sadan metrin ja muutaman kilometrin välille. Se riittää, koska auringonnousu muuttuu kartalla hitaasti: noin minuutin jokaista 20–30 kilometriä kohden, jonka liikut itään tai länteen. Sovellus säilyttää viimeksi saamansa koordinaatit, jotta se voi näyttää huomisen auringonnousun heti avautuessaan, ja päivittää ne taustalla. Jos olet liikkunut yli 25 km, se laskee uudelleen. Koordinaatit eivät koskaan poistu puhelimesta.</p>
+
+  <h2>2. Aurinkoyhtälöt</h2>
+  <p>Itse auringonnousu saadaan yhtälöistä, joita NOAA käyttää Solar Calculator -laskurissaan ja jotka perustuvat Jean Meeusin kirjaan <em>Astronomical Algorithms</em> (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, laskennan yksityiskohdat</a>). Sovellus käyttää niiden avoimen lähdekoodin toteutusta, <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a>-pakettia, joka on siirros <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>-kirjastosta. Annetulle päivälle ja paikalle se laskee:</p>
+  <ul>
+    <li>missä kohtaa kiertorataansa Maa on, juliaanisesta päivästä;</li>
+    <li>auringon näennäisen sijainnin tähtitaivaalla ja siitä auringon deklinaation eli sen, kuinka kaukana päiväntasaajan pohjois- tai eteläpuolella aurinko on;</li>
+    <li>ajantasauksen eli aurinkoajan ja kellonajan eron kyseisenä päivänä;</li>
+    <li>hetken, jolloin auringon keskipiste on 90,833 asteen päässä suoraan yläpuolella olevasta pisteestä.</li>
+  </ul>
+  <p>Tuo viimeinen luku on auringonnousun määritelmä. Ylimääräiset 0,833 astetta horisontin alapuolella ottavat huomioon auringon säteen, koska auringonnousu on hetki, jolloin yläreuna tulee näkyviin, sekä ilmakehän aiheuttaman valon taittumisen, jonka ansiosta näemme auringon hieman ennen kuin se on geometrisesti horisontin yläpuolella.</p>
+
+  <h2>3. Raakaa laskentaa, sitten välimuisti</h2>
+  <p>Paketti löytää auringonnousun laskemalla auringon sijainnin päivän jokaiselle sekunnille, mikä vie puhelimessa noin 80 millisekuntia päivää kohden. Se on liian hidasta toistettavaksi, kun vedät herätysajan siirron liukusäädintä, joten sovellus laskee kaksitoista päivää kerralla taustasäikeessä, tallentaa ne ja lukee ne sen jälkeen muistista. Kotinäkymän vuosikaavio poimii päiviä koko vuoden ajalta, sekin taustasäikeessä.</p>
+
+  <h2>4. Auringonnoususta herätykseksi</h2>
+  <p>Sovellus lisää valitsemasi siirron (enintään 60 minuuttia ennen tai jälkeen auringonnousun), pyöristää lähimpään minuuttiin, jotta herätys soi täsmälleen näyttämäänsä aikaan, ja etsii seuraavan päivän, joka on yksi valitsemistasi viikonpäivistä. Se laskee UTC-ajassa ja antaa puhelimen omien aikavyöhykesääntöjen muuntaa ajan paikalliseksi, joten käyttöjärjestelmä hoitaa kesäajan ja aikavyöhykkeiden muutokset.</p>
+  <p>Sitten se antaa herätyksen järjestelmälle: Androidin herätyspalvelulle tai AlarmKitille, Applen iOS 26:ssa esittelemälle herätyskehykselle. Siksi herätys soi, vaikka sovellus olisi suljettu. Androidilla taustatehtävä tarkistaa aikataulun useita kertoja päivässä ja uudelleenkäynnistyksen jälkeen. iOS:ssä tulevat aamut ajastetaan etukäteen AlarmKitillä ja täydennetään, kun avaat sovelluksen tai lopetat herätyksen.</p>
+
+  <h2>Kuinka tarkka se on?</h2>
+  <p>NOAA:n mukaan sen auringonnousun ja -laskun tulokset ovat minuutin tarkkuudella oikein 72 pohjoisen ja eteläisen leveysasteen välillä ja kymmenen minuutin tarkkuudella sen ulkopuolella. Käytännössä suuremmat erot tulevat todellisesta maailmasta:</p>
+  <ul>
+    <li><strong>Horisontti.</strong> Yhtälöt olettavat tasaisen, merenpinnan tasoisen horisontin. Idässä olevat vuoret, mäet ja rakennukset tarkoittavat, että näet auringon myöhemmin.</li>
+    <li><strong>Ilmakehä.</strong> Valon taittuminen vaihtelee lämpötilan ja ilmanpaineen mukaan, mikä voi siirtää näkyvää auringonnousua minuutin tai kaksi.</li>
+    <li><strong>Korkeus.</strong> Korkealta näet auringon vähän aikaisemmin. Sovellus ei käytä korkeutta.</li>
+  </ul>
+
+  <h2>Kun auringonnousua ei ole</h2>
+  <p>Napapiirin pohjoispuolella talvella ja eteläisen napapiirin eteläpuolella kesäkuussa on päiviä, jolloin aurinko ei nouse. Niinä päivinä ei ole auringonnousua, jonka aikaan soida, joten herätys ei soi. Sovellus etsii enintään yhdeksän päivää eteenpäin seuraavaa todellista auringonnousua jonakin valitsemistasi viikonpäivistä. Jos asut siellä, sovellus ei ole oikea herätys kaamoksen aikaan.</p>
+
+  <h2>Mitä ei koskaan tapahdu</h2>
+  <p>Sijaintia ei lähetetä mihinkään, tiliä ei tarvita eikä mainoksia ole. Puhelimesta lähtevät vain kaatumisraportit, ilman sijaintiasi, sekä RevenueCatin käsittelemät ostotiedot, jos ostat Premiumin, kuten <a href="../privacy.html">tietosuojakäytännössä</a> kuvataan.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Lataa Wake at Sunrise Google Playsta</a></p>
+
+  <h2>Lisää artikkeleita</h2>
+  <ul>
+    <li><a href="sunrise-through-the-year.html">Kuinka paljon auringonnousu siirtyy vuoden mittaan</a></li>
+    <li><a href="waking-at-sunrise-while-travelling.html">Herääminen auringonnousuun matkoilla</a></li>
+    <li><a href="waking-with-the-sun.html">Miksi auringon mukana herääminen toimii</a></li>
+  </ul>
+
+  <h2>Lähteet</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA Global Monitoring Laboratory: Solar Calculation Details</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc pub.devissä</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset GitHubissa</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>

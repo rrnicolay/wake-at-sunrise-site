@@ -18,18 +18,36 @@ The site goes live at **https://rrnicolay.github.io/wake-at-sunrise-site/** a mi
 
 ## Layout
 
-| | English | Português |
-| --- | --- | --- |
-| Landing | `index.html` | `pt.html` |
-| Privacy policy | `privacy.html` | `privacidade.html` |
-| Data deletion | `delete-data.html` | `excluir-dados.html` |
+Ten languages, matching the app: English and Português keep their original
+addresses; the others live in a folder per language with the English file
+names.
 
-Shared: `styles.css` (landing), `doc.css` (legal pages), `beta.js`,
-`app-home.webp` / `app-home-pt.webp`. Language pairs link to each other and
-declare `hreflang`, so each URL is canonical in its own language — the Play
-listing can point the en-US entry at `index.html` and the pt-BR entry at
-`pt.html`. There is no auto-redirect: guessing a visitor's language and
-being wrong is worse than a visible switcher.
+| | English | Português | de, es, nl, sv, nb, da, fi, ru |
+| --- | --- | --- | --- |
+| Landing | `index.html` | `pt.html` | `<lang>/index.html` |
+| Help ("Alarm didn't ring?") | `help.html` | `ajuda.html` | `<lang>/help.html` |
+| Privacy policy | `privacy.html` | `privacidade.html` | `<lang>/privacy.html` |
+| Data deletion | `delete-data.html` | `excluir-dados.html` | `<lang>/delete-data.html` |
+| Press kit | `press.html` | `imprensa.html` | `<lang>/press.html` |
+| Articles | `articles/*.html` | `articles/*.html` (pt slugs) | `<lang>/articles/*.html` |
+
+Shared: `styles.css` (landing), `doc.css` (other pages), `beta.js`,
+`lang.js`, `app-home-<lang>.webp`, `press/` (store graphics per language).
+
+**Languages are wired by `python3 tools/i18n.py`** (run it after adding or
+renaming a page; the page map is at the top of the script). On every page it
+writes the full `hreflang` set (ten languages + `x-default` → English), the
+language menu, and the `lang.js` tag, and it regenerates `sitemap.xml`. In a
+new page put `<!--LANGS-->` where the menu goes.
+
+`lang.js`: on the root `index.html` only, a first-time visitor is sent to the
+home page in their browser's language (`navigator.languages`; `no`/`nn` →
+Norsk), falling back to English. Choosing a language in the menu is stored
+in `localStorage` and always wins over the browser, so the redirect never
+fights a manual choice. Search engines see each URL in its own language via
+`hreflang`; the redirect is client-side and only on the root.
+
+Adding a language: see `docs/adding-a-language.md` in the app repo.
 
 ## Before sharing the link
 
@@ -54,8 +72,8 @@ being wrong is worse than a visible switcher.
 
 ## Notes
 
-- Copy lives twice, once per language: when you change a claim on one
-  landing page, change its twin.
+- Copy lives once per language: when you change a claim on one page,
+  change it in all ten.
 - The beta/contact buttons build a `mailto:` link in JavaScript to keep the
   raw address out of the page source (basic scraper deterrence, not
   bulletproof).

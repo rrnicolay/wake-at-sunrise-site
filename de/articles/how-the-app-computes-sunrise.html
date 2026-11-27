@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wie die App den Sonnenaufgang berechnet — Wake at Sunrise</title>
+<meta name="description" content="Der Standort, die Sonnengleichungen der NOAA, der Zwischenspeicher und der Systemwecker: wie die App aus deinem Aufenthaltsort genau den Wecker für morgen macht und wie genau das ist.">
+<meta property="og:title" content="Wie Wake at Sunrise den Sonnenaufgang auf deinem Handy berechnet">
+<meta property="og:description" content="Der Standort, die Sonnengleichungen der NOAA, der Zwischenspeicher und der Systemwecker: wie die App aus deinem Aufenthaltsort genau den Wecker für morgen macht und wie genau das ist.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-de.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Wie Wake at Sunrise den Sonnenaufgang auf deinem Handy berechnet",
+  "description": "Der Standort, die Sonnengleichungen der NOAA, der Zwischenspeicher und der Systemwecker: wie die App aus deinem Aufenthaltsort genau den Wecker für morgen macht und wie genau das ist.",
+  "inLanguage": "de",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-de.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"
+}
+</script>
+<script src="../../lang.js"></script>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← Wake at Sunrise</a>
+  <h1>Wie Wake at Sunrise den Sonnenaufgang auf deinem Handy berechnet</h1>
+  <div class="updated">18. November 2026 · <details class="langmenu"><summary>Deutsch</summary><ul><li><a href="../../articles/how-the-app-computes-sunrise.html" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../articles/como-o-app-calcula-o-nascer-do-sol.html" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português</a></li><li><a href="how-the-app-computes-sunrise.html" hreflang="de" lang="de" data-lang="de" aria-current="page">Deutsch</a></li><li><a href="../../es/articles/how-the-app-computes-sunrise.html" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../nl/articles/how-the-app-computes-sunrise.html" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="../../sv/articles/how-the-app-computes-sunrise.html" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="../../nb/articles/how-the-app-computes-sunrise.html" hreflang="nb" lang="nb" data-lang="nb">Norsk</a></li><li><a href="../../da/articles/how-the-app-computes-sunrise.html" hreflang="da" lang="da" data-lang="da">Dansk</a></li><li><a href="../../fi/articles/how-the-app-computes-sunrise.html" hreflang="fi" lang="fi" data-lang="fi">Suomi</a></li><li><a href="../../ru/articles/how-the-app-computes-sunrise.html" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li></ul></details></div>
+
+  <p>Wake at Sunrise klingelt zum echten Sonnenaufgang dort, wo du bist. Dahinter steht kein Server: Das Handy erledigt die ganze Arbeit. So funktioniert es genau, Schritt für Schritt, einschließlich der Grenzen.</p>
+
+  <h2>1. Wo du bist, ungefähr</h2>
+  <p>Die App fragt nach einer Genauigkeit auf Netzwerkebene, nicht nach GPS-Präzision (auf Android fordert sie nur den ungefähren Standort an), daher ist die Position auf etwa hundert Meter bis wenige Kilometer genau. Das reicht, denn der Sonnenaufgang ändert sich auf der Karte nur langsam: um etwa eine Minute pro 20 bis 30 km, die du dich nach Osten oder Westen bewegst. Die App behält die zuletzt ermittelten Koordinaten, damit sie den Sonnenaufgang von morgen beim Öffnen sofort anzeigen kann, und aktualisiert sie im Hintergrund. Wenn du dich mehr als 25 km entfernt hast, rechnet sie neu. Die Koordinaten verlassen nie das Handy.</p>
+
+  <h2>2. Die Sonnengleichungen</h2>
+  <p>Der Sonnenaufgang selbst stammt aus den Gleichungen, die die NOAA in ihrem Solar Calculator verwendet und die auf Jean Meeus' Buch <em>Astronomical Algorithms</em> beruhen (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, Details zur Berechnung</a>). Die App nutzt eine Open-Source-Implementierung davon, das Paket <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a>, eine Portierung von <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>. Für ein bestimmtes Datum und einen bestimmten Ort ermittelt es:</p>
+  <ul>
+    <li>wo sich die Erde auf ihrer Bahn befindet, anhand des julianischen Datums;</li>
+    <li>die scheinbare Position der Sonne vor dem Sternenhintergrund und daraus die Deklination der Sonne, also wie weit nördlich oder südlich des Äquators sie steht;</li>
+    <li>die Zeitgleichung, den Unterschied zwischen Sonnenzeit und Uhrzeit an diesem Datum;</li>
+    <li>den Moment, in dem der Mittelpunkt der Sonne 90,833 Grad vom Zenit entfernt ist.</li>
+  </ul>
+  <p>Diese letzte Zahl ist die Definition des Sonnenaufgangs. Die zusätzlichen 0,833 Grad unter dem Horizont berücksichtigen den Radius der Sonne, denn Sonnenaufgang ist, wenn ihr oberer Rand erscheint, sowie die Brechung des Lichts in der Atmosphäre, durch die wir die Sonne etwas früher sehen, als sie geometrisch über dem Horizont steht.</p>
+
+  <h2>3. Rohe Rechenkraft, dann ein Zwischenspeicher</h2>
+  <p>Das Paket findet den Sonnenaufgang, indem es die Position der Sonne für jede Sekunde des Tages auswertet, was auf einem Handy etwa 80 Millisekunden pro Datum dauert. Das ist zu langsam, um es zu wiederholen, während du den Schieberegler für die Verschiebung ziehst, deshalb berechnet die App zwölf Tage auf einmal in einem Hintergrund-Thread, speichert sie und liest sie danach aus dem Speicher. Die Jahreskurve auf dem Startbildschirm berechnet Stichproben von Daten übers ganze Jahr, ebenfalls in einem Hintergrund-Thread.</p>
+
+  <h2>4. Vom Sonnenaufgang zum Wecker</h2>
+  <p>Die App addiert deine Verschiebung (bis zu 60 Minuten vor oder nach Sonnenaufgang), rundet auf die nächste volle Minute, damit der Wecker genau zu der angezeigten Zeit klingelt, und sucht den nächsten Tag, der zu deinen gewählten Wecktagen gehört. Sie rechnet in UTC und überlässt die Umrechnung in die Ortszeit den Zeitzonenregeln des Handys, sodass Sommerzeit- und Zeitzonenwechsel vom Betriebssystem behandelt werden.</p>
+  <p>Dann übergibt sie den Wecker an das System: an den Alarmdienst von Android oder an AlarmKit, Apples mit iOS 26 eingeführtes Wecker-Framework. Deshalb klingelt der Wecker auch, wenn die App geschlossen ist. Auf Android prüft eine Hintergrundaufgabe den Zeitplan mehrmals am Tag und nach einem Neustart. Auf iOS werden die kommenden Morgen im Voraus mit AlarmKit geplant und nachgefüllt, wenn du die App öffnest oder einen Wecker stoppst.</p>
+
+  <h2>Wie genau ist das?</h2>
+  <p>Laut NOAA sind ihre Ergebnisse für Sonnenaufgang und Sonnenuntergang zwischen 72 Grad nördlicher und südlicher Breite auf eine Minute genau und jenseits davon auf zehn Minuten. In der Praxis kommen die größeren Abweichungen aus der realen Welt:</p>
+  <ul>
+    <li><strong>Der Horizont.</strong> Die Gleichungen gehen von einem flachen Horizont auf Meereshöhe aus. Berge, Hügel und Gebäude im Osten bedeuten, dass du die Sonne später siehst.</li>
+    <li><strong>Die Atmosphäre.</strong> Die Brechung schwankt mit Temperatur und Luftdruck, was den sichtbaren Sonnenaufgang um ein, zwei Minuten verschieben kann.</li>
+    <li><strong>Die Höhe.</strong> Von einer Anhöhe aus siehst du die Sonne etwas früher. Die App berücksichtigt die Höhe nicht.</li>
+  </ul>
+
+  <h2>Wenn es keinen Sonnenaufgang gibt</h2>
+  <p>Nördlich des Polarkreises im Winter und südlich des südlichen Polarkreises im Juni gibt es Tage, an denen die Sonne nicht aufgeht. An diesen Tagen gibt es keinen Sonnenaufgang, zu dem der Wecker klingeln könnte, also klingelt er nicht. Die App sucht bis zu neun Tage im Voraus nach dem nächsten echten Sonnenaufgang an einem deiner Wecktage. Wenn du dort lebst, ist die App nicht der richtige Wecker für die Polarnacht.</p>
+
+  <h2>Was nie passiert</h2>
+  <p>Es wird kein Standort hochgeladen, es ist kein Konto nötig, und es gibt keine Werbung. Das Einzige, was das Handy verlässt, sind Absturzberichte, ohne deinen Standort, und Kaufdaten, die RevenueCat verarbeitet, wenn du Premium kaufst, wie in der <a href="../privacy.html">Datenschutzerklärung</a> beschrieben.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Wake at Sunrise bei Google Play holen</a></p>
+
+  <h2>Weitere Artikel</h2>
+  <ul>
+    <li><a href="sunrise-through-the-year.html">Wie stark sich der Sonnenaufgang im Lauf des Jahres verschiebt</a></li>
+    <li><a href="waking-at-sunrise-while-travelling.html">Auf Reisen mit dem Sonnenaufgang aufwachen</a></li>
+    <li><a href="waking-with-the-sun.html">Warum das Aufwachen mit der Sonne funktioniert</a></li>
+  </ul>
+
+  <h2>Quellen</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA Global Monitoring Laboratory: Solar Calculation Details</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc auf pub.dev</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset auf GitHub</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>

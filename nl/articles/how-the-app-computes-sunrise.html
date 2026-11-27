@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hoe de app de zonsopkomst berekent — Wake at Sunrise</title>
+<meta name="description" content="De locatie, de zonnevergelijkingen van NOAA, de cache en de systeemwekker: precies hoe de app jouw locatie omzet in de wekker van morgen, en hoe nauwkeurig dat is.">
+<meta property="og:title" content="Hoe Wake at Sunrise de zonsopkomst op je telefoon berekent">
+<meta property="og:description" content="De locatie, de zonnevergelijkingen van NOAA, de cache en de systeemwekker: precies hoe de app jouw locatie omzet in de wekker van morgen, en hoe nauwkeurig dat is.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-nl.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Hoe Wake at Sunrise de zonsopkomst op je telefoon berekent",
+  "description": "De locatie, de zonnevergelijkingen van NOAA, de cache en de systeemwekker: precies hoe de app jouw locatie omzet in de wekker van morgen, en hoe nauwkeurig dat is.",
+  "inLanguage": "nl",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-nl.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"
+}
+</script>
+<script src="../../lang.js"></script>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← Wake at Sunrise</a>
+  <h1>Hoe Wake at Sunrise de zonsopkomst op je telefoon berekent</h1>
+  <div class="updated">18 november 2026 · <details class="langmenu"><summary>Nederlands</summary><ul><li><a href="../../articles/how-the-app-computes-sunrise.html" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../articles/como-o-app-calcula-o-nascer-do-sol.html" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português</a></li><li><a href="../../de/articles/how-the-app-computes-sunrise.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="../../es/articles/how-the-app-computes-sunrise.html" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="how-the-app-computes-sunrise.html" hreflang="nl" lang="nl" data-lang="nl" aria-current="page">Nederlands</a></li><li><a href="../../sv/articles/how-the-app-computes-sunrise.html" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="../../nb/articles/how-the-app-computes-sunrise.html" hreflang="nb" lang="nb" data-lang="nb">Norsk</a></li><li><a href="../../da/articles/how-the-app-computes-sunrise.html" hreflang="da" lang="da" data-lang="da">Dansk</a></li><li><a href="../../fi/articles/how-the-app-computes-sunrise.html" hreflang="fi" lang="fi" data-lang="fi">Suomi</a></li><li><a href="../../ru/articles/how-the-app-computes-sunrise.html" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li></ul></details></div>
+
+  <p>Wake at Sunrise gaat af bij de echte zonsopkomst waar je bent. Daar zit geen server achter: de telefoon doet al het werk. Hier lees je precies hoe, stap voor stap, inclusief de beperkingen.</p>
+
+  <h2>1. Waar je ongeveer bent</h2>
+  <p>De app vraagt om nauwkeurigheid op netwerkniveau, niet om gps-precisie (op Android vraagt hij alleen om je geschatte locatie), dus de positie klopt tot op ergens tussen de honderd meter en een paar kilometer. Dat is genoeg, want de zonsopkomst verandert langzaam over de kaart: met ongeveer een minuut per 20 tot 30 km die je naar het oosten of westen gaat. De app bewaart de laatste coördinaten die hij heeft gekregen, zodat hij de zonsopkomst van morgen meteen kan tonen als hij opent, en ververst ze op de achtergrond. Ben je meer dan 25 km verplaatst, dan rekent hij opnieuw. De coördinaten verlaten de telefoon nooit.</p>
+
+  <h2>2. De zonnevergelijkingen</h2>
+  <p>De zonsopkomst zelf komt uit de vergelijkingen die NOAA gebruikt in zijn Solar Calculator, gebaseerd op het boek <em>Astronomical Algorithms</em> van Jean Meeus (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, details van de berekening</a>). De app gebruikt een opensource-implementatie ervan, het pakket <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a>, een port van <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>. Voor een bepaalde datum en plek berekent het:</p>
+  <ul>
+    <li>waar de aarde in haar baan staat, op basis van de juliaanse dag;</li>
+    <li>de schijnbare positie van de zon ten opzichte van de sterren, en daaruit de declinatie van de zon, hoe ver ten noorden of zuiden van de evenaar ze staat;</li>
+    <li>de tijdsvereffening, het verschil tussen zonnetijd en kloktijd op die datum;</li>
+    <li>het moment waarop het middelpunt van de zon 90,833 graden van het punt recht boven je staat.</li>
+  </ul>
+  <p>Dat laatste getal is de definitie van zonsopkomst. De extra 0,833 graden onder de horizon tellen de straal van de zon mee, omdat de zonsopkomst het moment is waarop de bovenrand verschijnt, plus de buiging van het licht door de atmosfeer, waardoor we de zon iets eerder zien dan ze geometrisch boven de horizon staat.</p>
+
+  <h2>3. Brute kracht, en daarna een cache</h2>
+  <p>Het pakket vindt de zonsopkomst door de positie van de zon voor elke seconde van de dag te berekenen, wat op een telefoon ongeveer 80 milliseconden per datum kost. Dat is te traag om te herhalen terwijl je de schuifregelaar voor de verschuiving versleept, dus de app berekent twaalf dagen tegelijk in een achtergrondthread, slaat ze op en leest ze daarna uit het geheugen. De jaargrafiek op het startscherm neemt steekproeven van datums verspreid over het hele jaar, ook in een achtergrondthread.</p>
+
+  <h2>4. Van zonsopkomst naar wekker</h2>
+  <p>De app telt je verschuiving op (tot 60 minuten voor of na zonsopkomst), rondt af op de dichtstbijzijnde minuut zodat de wekker precies afgaat op de tijd die hij toont, en zoekt de eerstvolgende dag die een van je gekozen wekdagen is. Hij rekent in UTC en laat de tijdzoneregels van de telefoon zelf omrekenen naar de lokale tijd, zodat zomertijd en wisselingen van tijdzone door het besturingssysteem worden afgehandeld.</p>
+  <p>Daarna geeft hij de wekker door aan het systeem: de wekkerdienst van Android, of AlarmKit, het wekkerframework van Apple dat in iOS 26 is geïntroduceerd. Daarom gaat de wekker ook af als de app gesloten is. Op Android controleert een achtergrondtaak de planning een paar keer per dag en na een herstart. Op iOS worden de komende ochtenden vooraf ingepland met AlarmKit en aangevuld als je de app opent of een wekker stopt.</p>
+
+  <h2>Hoe nauwkeurig is het?</h2>
+  <p>Volgens NOAA zijn de resultaten voor zonsopkomst en zonsondergang tot op een minuut nauwkeurig tussen 72 graden noorder- en zuiderbreedte, en tot op tien minuten daarbuiten. In de praktijk komen de grotere verschillen uit de echte wereld:</p>
+  <ul>
+    <li><strong>De horizon.</strong> De vergelijkingen gaan uit van een vlakke horizon op zeeniveau. Bergen, heuvels en gebouwen in het oosten zorgen ervoor dat je de zon later ziet.</li>
+    <li><strong>De atmosfeer.</strong> De breking van het licht varieert met temperatuur en luchtdruk, wat de zichtbare zonsopkomst een minuut of twee kan verschuiven.</li>
+    <li><strong>De hoogte.</strong> Vanaf een hoog punt zie je de zon iets eerder. De app houdt geen rekening met hoogte.</li>
+  </ul>
+
+  <h2>Als er geen zonsopkomst is</h2>
+  <p>Ten noorden van de noordpoolcirkel in de winter, en ten zuiden van de zuidpoolcirkel in juni, zijn er dagen waarop de zon niet opkomt. Op die dagen is er geen zonsopkomst om bij af te gaan, dus de wekker gaat niet af. De app kijkt tot negen dagen vooruit naar de volgende echte zonsopkomst op een van je wekdagen. Woon je daar, dan is de app niet de juiste wekker voor de poolnacht.</p>
+
+  <h2>Wat nooit gebeurt</h2>
+  <p>Er wordt geen locatie geüpload, er is geen account nodig en er zijn geen advertenties. Het enige dat de telefoon verlaat, zijn crashrapporten, zonder je locatie, en aankoopgegevens die door RevenueCat worden verwerkt als je Premium koopt, zoals beschreven in het <a href="../privacy.html">privacybeleid</a>.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Download Wake at Sunrise via Google Play</a></p>
+
+  <h2>Meer artikelen</h2>
+  <ul>
+    <li><a href="sunrise-through-the-year.html">Hoeveel de zonsopkomst door het jaar verschuift</a></li>
+    <li><a href="waking-at-sunrise-while-travelling.html">Wakker worden bij zonsopkomst op reis</a></li>
+    <li><a href="waking-with-the-sun.html">Waarom wakker worden met de zon werkt</a></li>
+  </ul>
+
+  <h2>Bronnen</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA Global Monitoring Laboratory: Solar Calculation Details</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc op pub.dev</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset op GitHub</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>

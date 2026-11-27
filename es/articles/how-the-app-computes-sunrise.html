@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cómo calcula la app el amanecer — Wake at Sunrise</title>
+<meta name="description" content="La ubicación, las ecuaciones solares de la NOAA, la caché y la alarma del sistema: cómo convierte exactamente la app el lugar donde estás en la alarma de mañana, y qué precisión tiene.">
+<meta property="og:title" content="Cómo calcula Wake at Sunrise el amanecer en tu teléfono">
+<meta property="og:description" content="La ubicación, las ecuaciones solares de la NOAA, la caché y la alarma del sistema: cómo convierte exactamente la app el lugar donde estás en la alarma de mañana, y qué precisión tiene.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-es.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cómo calcula Wake at Sunrise el amanecer en tu teléfono",
+  "description": "La ubicación, las ecuaciones solares de la NOAA, la caché y la alarma del sistema: cómo convierte exactamente la app el lugar donde estás en la alarma de mañana, y qué precisión tiene.",
+  "inLanguage": "es",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-es.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"
+}
+</script>
+<script src="../../lang.js"></script>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← Wake at Sunrise</a>
+  <h1>Cómo calcula Wake at Sunrise el amanecer en tu teléfono</h1>
+  <div class="updated">18 de noviembre de 2026 · <details class="langmenu"><summary>Español</summary><ul><li><a href="../../articles/how-the-app-computes-sunrise.html" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../articles/como-o-app-calcula-o-nascer-do-sol.html" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português</a></li><li><a href="../../de/articles/how-the-app-computes-sunrise.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="how-the-app-computes-sunrise.html" hreflang="es" lang="es" data-lang="es" aria-current="page">Español</a></li><li><a href="../../nl/articles/how-the-app-computes-sunrise.html" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="../../sv/articles/how-the-app-computes-sunrise.html" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="../../nb/articles/how-the-app-computes-sunrise.html" hreflang="nb" lang="nb" data-lang="nb">Norsk</a></li><li><a href="../../da/articles/how-the-app-computes-sunrise.html" hreflang="da" lang="da" data-lang="da">Dansk</a></li><li><a href="../../fi/articles/how-the-app-computes-sunrise.html" hreflang="fi" lang="fi" data-lang="fi">Suomi</a></li><li><a href="../../ru/articles/how-the-app-computes-sunrise.html" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li></ul></details></div>
+
+  <p>Wake at Sunrise suena con el amanecer real del lugar donde estás. No hay ningún servidor detrás: el teléfono hace todo el trabajo. Así es exactamente cómo, paso a paso, incluidos sus límites.</p>
+
+  <h2>1. Dónde estás, aproximadamente</h2>
+  <p>La app pide una precisión a nivel de red, no la precisión del GPS (en Android solo solicita la ubicación aproximada), así que la posición es precisa en un margen de entre cien metros y unos pocos kilómetros. Es suficiente, porque el amanecer cambia despacio sobre el mapa: alrededor de un minuto por cada 20 a 30 km que te desplazas hacia el este o el oeste. La app guarda las últimas coordenadas que obtuvo, para poder mostrar el amanecer de mañana al instante cuando se abre, y las actualiza en segundo plano. Si te has desplazado más de 25 km, vuelve a calcularlo. Las coordenadas nunca salen del teléfono.</p>
+
+  <h2>2. Las ecuaciones solares</h2>
+  <p>El amanecer en sí se obtiene de las ecuaciones que la NOAA usa en su Solar Calculator, basadas en el libro <em>Astronomical Algorithms</em> de Jean Meeus (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, detalles del cálculo</a>). La app usa una implementación de código abierto de esas ecuaciones, el paquete <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a>, un port de <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>. Para una fecha y un lugar dados, calcula:</p>
+  <ul>
+    <li>dónde está la Tierra en su órbita, a partir del día juliano;</li>
+    <li>la posición aparente del sol respecto a las estrellas y, a partir de ella, la declinación del sol, es decir, cuánto está al norte o al sur del ecuador;</li>
+    <li>la ecuación del tiempo, la diferencia entre la hora solar y la hora del reloj en esa fecha;</li>
+    <li>el momento en que el centro del sol está a 90,833 grados de la vertical.</li>
+  </ul>
+  <p>Ese último número es la definición del amanecer. Los 0,833 grados de más por debajo del horizonte tienen en cuenta el radio del sol, ya que el amanecer es cuando aparece su borde superior, y la curvatura de la luz al atravesar la atmósfera, que nos deja ver el sol un poco antes de que esté geométricamente por encima del horizonte.</p>
+
+  <h2>3. Fuerza bruta y, después, una caché</h2>
+  <p>El paquete encuentra el amanecer evaluando la posición del sol en cada segundo del día, lo que tarda unos 80 milisegundos por fecha en un teléfono. Es demasiado lento para repetirlo mientras arrastras el control deslizante del desfase, así que la app calcula doce días de una vez en un hilo en segundo plano, los guarda y, a partir de ahí, los lee de la memoria. El gráfico anual de la pantalla de inicio toma muestras de fechas de todo el año, también en un hilo en segundo plano.</p>
+
+  <h2>4. Del amanecer a una alarma</h2>
+  <p>La app suma tu desfase (hasta 60 minutos antes o después del amanecer), redondea al minuto más cercano para que la alarma suene exactamente a la hora que muestra y busca el siguiente día que sea uno de los días de la semana que elegiste. Trabaja en UTC y deja que las reglas de zona horaria del propio teléfono lo conviertan a la hora local, así que los cambios al horario de verano y de zona horaria los gestiona el sistema operativo.</p>
+  <p>Después entrega la alarma al sistema: al servicio de alarmas de Android o a AlarmKit, el framework de alarmas de Apple introducido en iOS 26. Por eso la alarma suena aunque la app esté cerrada. En Android, una tarea en segundo plano revisa la programación varias veces al día y después de cada reinicio. En iOS, las próximas mañanas se programan por adelantado con AlarmKit y se reponen cuando abres la app o detienes una alarma.</p>
+
+  <h2>¿Qué precisión tiene?</h2>
+  <p>Según la NOAA, sus resultados de amanecer y atardecer tienen una precisión de un minuto entre los 72 grados norte y sur, y de diez minutos más allá de esas latitudes. En la práctica, las diferencias más grandes vienen del mundo real:</p>
+  <ul>
+    <li><strong>El horizonte.</strong> Las ecuaciones suponen un horizonte plano a nivel del mar. Las montañas, las colinas y los edificios hacia el este hacen que veas el sol más tarde.</li>
+    <li><strong>La atmósfera.</strong> La refracción varía con la temperatura y la presión, lo que puede mover el amanecer visible un minuto o dos.</li>
+    <li><strong>La altitud.</strong> Desde un lugar elevado ves el sol un poco antes. La app no tiene en cuenta la altitud.</li>
+  </ul>
+
+  <h2>Cuando no hay amanecer</h2>
+  <p>Al norte del círculo polar ártico en invierno, y al sur del antártico en junio, hay días en que el sol no sale. Esos días no hay ningún amanecer con el que sonar, así que la alarma no suena. La app busca hasta nueve días por adelantado el siguiente amanecer real en uno de tus días de la semana. Si vives allí, esta app no es la alarma adecuada para la noche polar.</p>
+
+  <h2>Lo que nunca ocurre</h2>
+  <p>No se sube ninguna ubicación, no hace falta ninguna cuenta y no hay anuncios. Lo único que sale del teléfono son los informes de errores, sin tu ubicación, y los registros de compra que procesa RevenueCat si compras Premium, tal como se describe en la <a href="../privacy.html">política de privacidad</a>.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Descarga Wake at Sunrise en Google Play</a></p>
+
+  <h2>Más artículos</h2>
+  <ul>
+    <li><a href="sunrise-through-the-year.html">Cuánto se desplaza el amanecer a lo largo del año</a></li>
+    <li><a href="waking-at-sunrise-while-travelling.html">Despertar al amanecer cuando viajas</a></li>
+    <li><a href="waking-with-the-sun.html">Por qué funciona despertar con el sol</a></li>
+  </ul>
+
+  <h2>Fuentes</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA Global Monitoring Laboratory: Solar Calculation Details</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc en pub.dev</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset en GitHub</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>

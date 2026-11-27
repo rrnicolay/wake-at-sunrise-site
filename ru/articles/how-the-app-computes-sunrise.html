@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Как приложение рассчитывает восход — Wake at Sunrise</title>
+<meta name="description" content="Местоположение, солнечные уравнения NOAA, кэш и системный будильник: как именно приложение превращает место, где вы находитесь, в завтрашний будильник и насколько это точно.">
+<meta property="og:title" content="Как Wake at Sunrise рассчитывает восход на вашем телефоне">
+<meta property="og:description" content="Местоположение, солнечные уравнения NOAA, кэш и системный будильник: как именно приложение превращает место, где вы находитесь, в завтрашний будильник и насколько это точно.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-ru.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html">
+<link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html">
+<link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171136'/%3E%3Ccircle cx='32' cy='40' r='14' fill='%23ffcf6b'/%3E%3Crect y='44' width='64' height='20' fill='%23171136'/%3E%3Cline x1='8' y1='44' x2='56' y2='44' stroke='%23e98a3c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../doc.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Как Wake at Sunrise рассчитывает восход на вашем телефоне",
+  "description": "Местоположение, солнечные уравнения NOAA, кэш и системный будильник: как именно приложение превращает место, где вы находитесь, в завтрашний будильник и насколько это точно.",
+  "inLanguage": "ru",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wake at Sunrise"
+  },
+  "image": "https://rrnicolay.github.io/wake-at-sunrise-site/press/feature-graphic-ru.png",
+  "mainEntityOfPage": "https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"
+}
+</script>
+<script src="../../lang.js"></script>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← Wake at Sunrise</a>
+  <h1>Как Wake at Sunrise рассчитывает восход на вашем телефоне</h1>
+  <div class="updated">18 ноября 2026 г. · <details class="langmenu"><summary>Русский</summary><ul><li><a href="../../articles/how-the-app-computes-sunrise.html" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="../../articles/como-o-app-calcula-o-nascer-do-sol.html" hreflang="pt-BR" lang="pt-BR" data-lang="pt">Português</a></li><li><a href="../../de/articles/how-the-app-computes-sunrise.html" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="../../es/articles/how-the-app-computes-sunrise.html" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="../../nl/articles/how-the-app-computes-sunrise.html" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="../../sv/articles/how-the-app-computes-sunrise.html" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="../../nb/articles/how-the-app-computes-sunrise.html" hreflang="nb" lang="nb" data-lang="nb">Norsk</a></li><li><a href="../../da/articles/how-the-app-computes-sunrise.html" hreflang="da" lang="da" data-lang="da">Dansk</a></li><li><a href="../../fi/articles/how-the-app-computes-sunrise.html" hreflang="fi" lang="fi" data-lang="fi">Suomi</a></li><li><a href="how-the-app-computes-sunrise.html" hreflang="ru" lang="ru" data-lang="ru" aria-current="page">Русский</a></li></ul></details></div>
+
+  <p>Wake at Sunrise звонит в реальное время восхода там, где вы находитесь. За этим не стоит никакой сервер: всю работу выполняет телефон. Вот как именно это устроено, шаг за шагом, включая ограничения.</p>
+
+  <h2>1. Где вы находитесь — приблизительно</h2>
+  <p>Приложение запрашивает точность на уровне сети, а не точность GPS (на Android оно запрашивает только приблизительное местоположение), поэтому погрешность составляет от сотни метров до нескольких километров. Этого достаточно, потому что восход меняется по карте медленно: примерно на минуту на каждые 20–30 км к востоку или западу. Приложение сохраняет последние полученные координаты, чтобы сразу показывать завтрашний восход при открытии, и обновляет их в фоне. Если вы переместились больше чем на 25 км, оно пересчитывает время. Координаты никогда не покидают телефон.</p>
+
+  <h2>2. Солнечные уравнения</h2>
+  <p>Сам восход рассчитывается по уравнениям, которые NOAA использует в своём Solar Calculator и которые основаны на книге Жана Меёса <em>«Астрономические алгоритмы»</em> (<a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">NOAA, подробности расчёта</a>). Приложение использует их реализацию с открытым исходным кодом — пакет <a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc</a>, порт <a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset</a>. Для заданной даты и места он вычисляет:</p>
+  <ul>
+    <li>где Земля находится на своей орбите, исходя из юлианской даты;</li>
+    <li>видимое положение Солнца на фоне звёзд, а из него — склонение Солнца, то есть насколько оно севернее или южнее экватора;</li>
+    <li>уравнение времени — разницу между солнечным временем и временем по часам в эту дату;</li>
+    <li>момент, когда центр Солнца находится в 90,833 градуса от зенита.</li>
+  </ul>
+  <p>Это последнее число и есть определение восхода. Лишние 0,833 градуса ниже горизонта учитывают радиус Солнца, ведь восход — это момент, когда появляется его верхний край, а также преломление света в атмосфере, благодаря которому мы видим Солнце чуть раньше, чем оно геометрически поднимается над горизонтом.</p>
+
+  <h2>3. Полный перебор, а затем кэш</h2>
+  <p>Пакет находит восход, вычисляя положение Солнца для каждой секунды суток, и на телефоне это занимает около 80 миллисекунд на одну дату. Это слишком медленно, чтобы повторять расчёт, пока вы двигаете ползунок сдвига, поэтому приложение рассчитывает сразу двенадцать дней в фоновом потоке, сохраняет их и затем читает из памяти. График за год на главном экране тоже строится в фоновом потоке по датам, взятым из всего года.</p>
+
+  <h2>4. От восхода к будильнику</h2>
+  <p>Приложение добавляет ваш сдвиг (до 60 минут до или после восхода), округляет до ближайшей минуты, чтобы будильник звонил точно в то время, которое показано, и находит ближайший день из выбранных вами дней недели. Оно работает в UTC и оставляет перевод в местное время правилам часовых поясов самого телефона, поэтому переход на летнее время и смену часового пояса обрабатывает операционная система.</p>
+  <p>Затем оно передаёт будильник системе: службе будильников Android или AlarmKit — фреймворку будильников Apple, появившемуся в iOS 26. Поэтому будильник звонит, даже если приложение закрыто. На Android фоновая задача проверяет расписание несколько раз в день и после перезагрузки. На iOS ближайшие утра заранее планируются через AlarmKit, и запас пополняется, когда вы открываете приложение или выключаете будильник.</p>
+
+  <h2>Насколько это точно?</h2>
+  <p>По данным NOAA, её результаты для восхода и заката точны с погрешностью до минуты между 72 градусами северной и южной широты и до десяти минут за их пределами. На практике бо́льшие расхождения дают реальные условия:</p>
+  <ul>
+    <li><strong>Горизонт.</strong> Уравнения предполагают ровный горизонт на уровне моря. Горы, холмы и здания на востоке означают, что вы увидите солнце позже.</li>
+    <li><strong>Атмосфера.</strong> Рефракция зависит от температуры и давления, и это может сдвинуть видимый восход на минуту-две.</li>
+    <li><strong>Высота.</strong> С возвышенности солнце видно чуть раньше. Приложение высоту не учитывает.</li>
+  </ul>
+
+  <h2>Когда восхода нет</h2>
+  <p>За Северным полярным кругом зимой и за Южным в июне бывают дни, когда солнце не встаёт. В такие дни нет восхода, к которому можно привязать звонок, поэтому будильник не звонит. Приложение заглядывает до девяти дней вперёд в поисках следующего настоящего восхода в один из ваших дней недели. Если вы живёте там, для полярной ночи это приложение — неподходящий будильник.</p>
+
+  <h2>Чего никогда не происходит</h2>
+  <p>Местоположение не загружается, аккаунт не нужен, и рекламы нет. Телефон покидают только отчёты о сбоях, без вашего местоположения, и записи о покупках, которые обрабатывает RevenueCat, если вы покупаете Premium, как описано в <a href="../privacy.html">политике конфиденциальности</a>.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=io.github.rrnicolay.wakeatsunrise&referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlaunch-2026">Скачать Wake at Sunrise в Google Play</a></p>
+
+  <h2>Другие статьи</h2>
+  <ul>
+    <li><a href="sunrise-through-the-year.html">Насколько смещается восход в течение года</a></li>
+    <li><a href="waking-at-sunrise-while-travelling.html">Как просыпаться на восходе в путешествии</a></li>
+    <li><a href="waking-with-the-sun.html">Почему просыпаться с солнцем полезно</a></li>
+  </ul>
+
+  <h2>Источники</h2>
+  <ul>
+    <li><a href="https://gml.noaa.gov/grad/solcalc/calcdetails.html">Лаборатория глобального мониторинга NOAA: Solar Calculation Details</a></li>
+    <li><a href="https://pub.dev/packages/sunrise_sunset_calc">sunrise_sunset_calc на pub.dev</a></li>
+    <li><a href="https://github.com/kelvins/sunrisesunset">kelvins/sunrisesunset на GitHub</a></li>
+    <li><a href="https://developer.apple.com/documentation/alarmkit">Apple Developer: AlarmKit</a></li>
+    <li><a href="https://developer.android.com/reference/android/app/AlarmManager">Android Developers: AlarmManager</a></li>
+  </ul>
+</main>
+</body>
+</html>

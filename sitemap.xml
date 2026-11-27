@@ -1,21 +1,1173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/</loc><lastmod>2026-11-16</lastmod><priority>1.0</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/pt.html</loc><lastmod>2026-11-16</lastmod><priority>1.0</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/press.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html</loc><lastmod>2026-11-16</lastmod><priority>0.3</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html</loc><lastmod>2026-11-16</lastmod><priority>0.3</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/help.html</loc><lastmod>2026-11-23</lastmod><priority>0.6</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html</loc><lastmod>2026-11-23</lastmod><priority>0.6</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html</loc><lastmod>2026-11-16</lastmod><priority>0.3</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html</loc><lastmod>2026-11-16</lastmod><priority>0.3</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
-  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/pt.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/index.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/index.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/ajuda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/help.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/help.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/help.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/help.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/help.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/help.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/help.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/privacy.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/excluir-dados.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/delete-data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/delete-data.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/imprensa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/press.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/press.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-with-the-sun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-with-the-sun.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/nascer-do-sol-ao-longo-do-ano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/sunrise-through-the-year.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/sunrise-through-the-year.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/acordar-com-o-sol-em-viagem.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/waking-at-sunrise-while-travelling.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/waking-at-sunrise-while-travelling.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
+  <url><loc>https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html</loc><lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/como-o-app-calcula-o-nascer-do-sol.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://rrnicolay.github.io/wake-at-sunrise-site/de/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://rrnicolay.github.io/wake-at-sunrise-site/es/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://rrnicolay.github.io/wake-at-sunrise-site/nl/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://rrnicolay.github.io/wake-at-sunrise-site/sv/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://rrnicolay.github.io/wake-at-sunrise-site/nb/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://rrnicolay.github.io/wake-at-sunrise-site/da/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://rrnicolay.github.io/wake-at-sunrise-site/fi/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://rrnicolay.github.io/wake-at-sunrise-site/ru/articles/how-the-app-computes-sunrise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rrnicolay.github.io/wake-at-sunrise-site/articles/how-the-app-computes-sunrise.html"/>
+  </url>
 </urlset>
