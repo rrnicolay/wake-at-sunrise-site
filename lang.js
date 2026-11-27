@@ -3,10 +3,10 @@
 // - The root home page (<meta name="autolang">) sends a first-time visitor
 //   to the home page in their browser's language, if the site has it.
 (function () {
-  var HOME = { en: "index.html", pt: "pt.html", de: "de/index.html",
-    es: "es/index.html", nl: "nl/index.html", sv: "sv/index.html",
-    nb: "nb/index.html", da: "da/index.html", fi: "fi/index.html",
-    ru: "ru/index.html" };
+  var HOME = { pt: "pt.html", de: "de/",
+    es: "es/", nl: "nl/", sv: "sv/",
+    nb: "nb/", da: "da/", fi: "fi/",
+    ru: "ru/" };
   var KEY = "wasLang";
 
   function stored() {
