@@ -3,7 +3,7 @@
 // - The root home page (<meta name="autolang">) sends a first-time visitor
 //   to the home page in their browser's language, if the site has it.
 (function () {
-  var HOME = { pt: "pt.html", de: "de/",
+  var HOME = { en: "./", pt: "pt.html", de: "de/",
     es: "es/", nl: "nl/", sv: "sv/",
     nb: "nb/", da: "da/", fi: "fi/",
     ru: "ru/" };
