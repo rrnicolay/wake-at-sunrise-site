@@ -56,7 +56,11 @@ for page, paths in PAGES.items():
 
 
 def url(path):
-    return BASE if path == "index.html" else BASE + path
+    # Home pages are canonical at the folder address ("…/de/", not
+    # "…/de/index.html"), matching their <link rel="canonical">.
+    if path == "index.html" or path.endswith("/index.html"):
+        path = path[: -len("index.html")]
+    return BASE + path
 
 
 def rel(from_path, to_path):
